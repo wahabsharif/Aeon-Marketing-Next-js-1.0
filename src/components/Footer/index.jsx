@@ -15,7 +15,8 @@ const Footer = ({ noSubBG }) => {
   }
   const sendEmail = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
-    <footer className={`footer-half ${noSubBG ? '':'sub-bg'} section-padding pb-0`}>
+    <footer
+      className={`footer-half ${noSubBG ? "" : "sub-bg"} section-padding pb-0`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
@@ -28,14 +29,18 @@ const Footer = ({ noSubBG }) => {
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span> Avo_support@website.com
+                    <span>Email : </span>{" "}
+                    <a href="mailto:islamabadsmartproperties@gmail.com">
+                      islamabadsmartproperties@gmail.com
+                    </a>
                   </li>
                   <li>
                     <span>Address : </span> A32 , Ave 15th Street, Door 211, San
                     Franciso, USA 32490.
                   </li>
                   <li>
-                    <span>Phone : </span> (+1) 2345 678 44 88
+                    <span>Phone : </span>
+                    <a href="tel:+923465336367"> (+92) 346 533 6367</a>
                   </li>
                 </ul>
               </div>
@@ -71,8 +76,7 @@ const Footer = ({ noSubBG }) => {
                   alert(JSON.stringify(values, null, 2));
                   // Reset the values
                   values.subscribe = "";
-                }}
-              >
+                }}>
                 {({ errors, touched }) => (
                   <Form>
                     <div className="form-group custom-font">
@@ -91,7 +95,7 @@ const Footer = ({ noSubBG }) => {
                 )}
               </Formik>
             </div>
-            <div className="insta">
+            {/* <div className="insta">
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>
               <div className="insta-gallary">
                 <a href="#0">
@@ -104,12 +108,19 @@ const Footer = ({ noSubBG }) => {
                   <img src="/img/insta/3.jpg" alt="" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="copyrights text-center">
           <p>
-            © 2022, Avo Template. Made with passion by <a href="#0">ThemesCamp</a>.
+            © 2023, Aeon Marketing. Made with passion by{" "}
+            <a
+              href="http://beacontechh.com/"
+              target="_blank"
+              rel="noopener noreferrer">
+              BeaconTechh
+            </a>
+            .
           </p>
         </div>
       </div>

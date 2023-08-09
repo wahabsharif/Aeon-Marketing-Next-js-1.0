@@ -1,7 +1,7 @@
 import React from "react";
 import Split from "../Split";
 import { Formik, Form, Field } from "formik";
-import axios from 'axios';
+import axios from "axios";
 
 const ContactSection = () => {
   const messageRef = React.useRef(null);
@@ -44,10 +44,10 @@ const ContactSection = () => {
                   // show message
                   const formData = new FormData();
 
-                  formData.append('name', values.name);
-                  formData.append('email', values.email);
-                  formData.append('message', values.message);
-                  const res = await axios.post('/contact.php', formData);
+                  formData.append("name", values.name);
+                  formData.append("email", values.email);
+                  formData.append("message", values.message);
+                  const res = await axios.post("/contact.php", formData);
 
                   if (!res) return;
 
@@ -61,8 +61,7 @@ const ContactSection = () => {
                   setTimeout(() => {
                     messageRef.current.innerText = "";
                   }, 2000);
-                }}
-              >
+                }}>
                 {({ errors, touched }) => (
                   <Form id="contact-form">
                     <div className="messages" ref={messageRef}></div>
@@ -111,8 +110,7 @@ const ContactSection = () => {
                           <div className="text-center">
                             <button
                               type="submit"
-                              className="simple-btn custom-font cursor-pointer"
-                            >
+                              className="simple-btn custom-font cursor-pointer">
                               <span>Send Message</span>
                             </button>
                           </div>

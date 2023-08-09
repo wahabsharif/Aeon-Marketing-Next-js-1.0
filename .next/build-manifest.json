@@ -25,6 +25,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/about/about-dark": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/about/about-dark.js"
+    ],
     "/home/home2-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

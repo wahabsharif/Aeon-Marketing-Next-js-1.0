@@ -13,8 +13,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
     <>
       <div
         id="navi"
-        className={`topnav ${theme ? (theme === "light" ? "light" : "") : ""}`}
-      >
+        className={`topnav ${theme ? (theme === "light" ? "light" : "") : ""}`}>
         <div className="container-fluid">
           <div className="logo">
             <a href="#0">
@@ -250,7 +249,9 @@ const NavbarFullMenu = ({ theme, lr }) => {
               <div className="cont-info">
                 <div className="item">
                   <h6>Phone :</h6>
-                  <p>+03 762-2367-723</p>
+                  <p>
+                    <a href="tel:+923465336367">+92 346 533-6367</a>
+                  </p>
                 </div>
                 <div className="item">
                   <h6>Address :</h6>
@@ -261,8 +262,43 @@ const NavbarFullMenu = ({ theme, lr }) => {
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">Avo_website@gmail.com</a>
+                    <a href="mailto:islamabadsmartproperties@gmail.com">
+                      islamabadsmartproperties@gmail.com
+                    </a>
                   </p>
+                </div>
+              </div>
+              <div className="social-icon">
+                <h6 className="custom-font stit simple-btn">Follow Us</h6>
+                <div className="social">
+                  <a
+                    href="https://www.facebook.com/ISP006"
+                    className="icon mx-3"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="#0"
+                    className="icon mx-3"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                  <a
+                    href="#0"
+                    className="icon mx-3"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i className="fab fa-pinterest"></i>
+                  </a>
+                  <a
+                    href="#0"
+                    className="icon mx-3"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i className="fab fa-behance"></i>
+                  </a>
                 </div>
               </div>
             </div>
