@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about/about-dark": [
+    "/bahria-town-peshawar": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about/about-dark.js"
-    ],
-    "/home/home2-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/home/home2-dark.js"
+      "static/chunks/pages/bahria-town-peshawar.js"
     ]
   },
   "ampFirstPages": []

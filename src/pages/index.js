@@ -1,10 +1,15 @@
-import DarkTheme from '../layouts/Dark'
-import Demos from "./demos";
+import React from "react";
+import DarkTheme from "../layouts/Dark";
+import Home from "./home";
 
-export default function Home() {
+function index() {
   return (
-    <DarkTheme>
-      <Demos />
-    </DarkTheme>
-  )
+    <>
+      <DarkTheme>
+        <Home />
+      </DarkTheme>
+    </>
+  );
 }
+
+export default index;

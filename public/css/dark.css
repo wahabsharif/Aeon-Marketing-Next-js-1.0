@@ -227,6 +227,7 @@ span:hover {
 .bg-img {
   background-size: cover;
   background-repeat: no-repeat;
+  height: 40rem;
 }
 
 .bg-center {
@@ -1900,7 +1901,7 @@ body {
 }
 .hamenu .menu-links {
   color: #fff;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .hamenu .menu-links .o-hidden {
   display: inline-block;
@@ -1989,7 +1990,6 @@ body {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
-  padding: 8px 10px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
