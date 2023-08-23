@@ -6,20 +6,18 @@ const CallToAction = ({ img, theme, subBG }) => {
   return (
     <section
       className={`call-action section-padding ${subBG ? "sub-bg" : ""} bg-img`}
-      style={{ backgroundImage: `url(${img ? img : "/img/pattern.png"})` }}
-    >
-      <div className="container">
+      style={{ backgroundImage: `url(${img ? img : "/img/pattern.png"})` }}>
+      <div className="container pb-1">
         <div className="row">
           <div className="col-md-8 col-lg-9">
-            <div className="content sm-mb30">
+            <div className="content ">
               <Split>
                 <h6 className="wow words chars splitting" data-splitting>
                   Let&apos;s Talk
                 </h6>
                 <h2
                   className="wow words custom-font chars splitting"
-                  data-splitting
-                >
+                  data-splitting>
                   about your <b>next project</b>.
                 </h2>
               </Split>
@@ -32,8 +30,7 @@ const CallToAction = ({ img, theme, subBG }) => {
                 className={`btn-curve ${
                   theme == "light" ? "btn-blc" : "btn-lit"
                 } wow fadeInUp`}
-                data-wow-delay=".5s"
-              >
+                data-wow-delay=".5s">
                 <span>Get In Touch</span>
               </a>
             </Link>

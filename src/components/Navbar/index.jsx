@@ -16,7 +16,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
         className={`topnav ${theme ? (theme === "light" ? "light" : "") : ""}`}>
         <div className="container-fluid">
           <div className="logo">
-            <a href="#0">
+            <Link href="/">
               {theme ? (
                 theme === "light" ? (
                   <img src={`${appData.darkLogo}`} alt="logo" />
@@ -26,7 +26,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
               ) : (
                 <img src={`${appData.lightLogo}`} alt="logo" />
               )}
-            </a>
+            </Link>
           </div>
           <div className="menu-icon">
             <span className="icon">
@@ -59,17 +59,8 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link href="/about">
-                        <a className="link">
-                          <span className="nm">02.</span>About Us
-                        </a>
-                      </Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="o-hidden">
                       <span className="link dmenu">
-                        <span className="nm">03.</span>Societies
+                        <span className="nm">02.</span>Societies
                         <i className="fas fa-angle-right"></i>
                       </span>
                     </div>
@@ -94,9 +85,9 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/works2/works2-dark">
+                            <Link href="/citi-housing-peshawar">
                               <a className="sub-link">
-                                <span className="nm">02.</span>City Housing
+                                <span className="nm">02.</span>Citi Housing
                                 Peshawar
                               </a>
                             </Link>
@@ -104,7 +95,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/works3/works3-dark">
+                            <Link href="/capital-valley">
                               <a className="sub-link">
                                 <span className="nm">03.</span>Capital Valley
                               </a>
@@ -113,7 +104,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/works4/works4-dark">
+                            <Link href="/park-view-city">
                               <a className="sub-link">
                                 <span className="nm">04.</span>Park View City
                               </a>
@@ -122,7 +113,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/works4/works4-dark">
+                            <Link href="/taj-residencia">
                               <a className="sub-link">
                                 <span className="nm">05.</span>Taj Residencia
                               </a>
@@ -131,7 +122,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/works4/works4-dark">
+                            <Link href="/rudn-enclave">
                               <a className="sub-link">
                                 <span className="nm">06.</span>Rudn Enclave
                               </a>
@@ -140,7 +131,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/works4/works4-dark">
+                            <Link href="/kingdom-valley">
                               <a className="sub-link">
                                 <span className="nm">07.</span>Kingdom Valley
                               </a>
@@ -149,7 +140,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link href="/works4/works4-dark">
+                            <Link href="/nmc-gujar-khan">
                               <a className="sub-link">
                                 <span className="nm">08.</span>New Metro City
                                 Gujar Khan
@@ -164,7 +155,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <div className="o-hidden">
                       <Link href="/gallery">
                         <a className="link">
-                          <span className="nm">04.</span>Gallery
+                          <span className="nm">03.</span>Gallery
                         </a>
                       </Link>
                     </div>
@@ -173,7 +164,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <div className="o-hidden">
                       <Link href="/contact">
                         <a className="link">
-                          <span className="nm">05.</span>Contact
+                          <span className="nm">04.</span>Contact
                         </a>
                       </Link>
                     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import introData from "../../data/sections//bahria-town-peshawar-hero.json";
+import introData from "../../data/bahria-town-peshawar/hero.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";

@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Split from "../../components/Split";
-import AboutUs1Date from "../../data/sections/about-us1.json";
+import AboutUs1Date from "../../data/bahria-town-peshawar/about.json";
 
 const AboutUs1 = () => {
   return (
