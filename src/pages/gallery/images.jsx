@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-const ProjectDetails2Images = () => {
+const Images = () => {
   return (
     <section className="projdtal">
       <h2 style={{ display: "none" }}> &nbsp; </h2>
@@ -64,4 +64,4 @@ const ProjectDetails2Images = () => {
   );
 };
 
-export default ProjectDetails2Images;
+export default Images;

@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/nmc-gujar-khan": [
+    "/contact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/nmc-gujar-khan.js"
+      "static/chunks/pages/contact.js"
     ]
   },
   "ampFirstPages": []

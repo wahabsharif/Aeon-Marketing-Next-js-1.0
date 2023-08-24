@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectDetails2Introduction = () => {
+const Intro = () => {
   return (
     <section className="intro-section section-padding">
       <div className="container">
@@ -35,4 +35,4 @@ const ProjectDetails2Introduction = () => {
   );
 };
 
-export default ProjectDetails2Introduction;
+export default Intro;
