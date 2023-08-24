@@ -40,6 +40,13 @@ const CeoMessage = ({ skillsTheme }) => {
               </h4>
             </Split>
           </div>
+          <div className="col-lg-6">
+            <div className="blc-img">
+              <div className="bimg wow imago">
+                <img src="/img/faheem-1.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
           <div className="col-lg-6 valign">
             <div className="content">
               <p className="wow fadeInUp" data-wow-delay=".4s">
@@ -83,13 +90,6 @@ const CeoMessage = ({ skillsTheme }) => {
                 progress, excellence, and transformative real estate
                 experiences. Thank you for choosing Aeon Marketing Pvt. Ltd.
               </p>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="blc-img">
-              <div className="bimg wow imago">
-                <img src="/img/faheem-1.jpeg" alt="" />
-              </div>
             </div>
           </div>
         </div>
