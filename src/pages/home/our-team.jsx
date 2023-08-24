@@ -49,12 +49,12 @@ class OurTeam extends React.Component {
                   arrows: true,
                   autoplay: true,
                   slidesToScroll: 1,
-                  slidesToShow: 3,
+                  slidesToShow: 4,
                   responsive: [
                     {
                       breakpoint: 1024,
                       settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 4,
                       },
                     },
                     {
