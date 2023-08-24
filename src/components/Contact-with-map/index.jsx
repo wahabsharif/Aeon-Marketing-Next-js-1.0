@@ -118,9 +118,13 @@ const ContactWithMap = ({ theme = "dark" }) => {
                 </Split>
                 <div className="item mb-40">
                   <h5>
-                    <a href="#0">Email@example.com</a>
+                    <a href="mailto:islamabadsmartproperties@gmail.com">
+                      islamabadsmartproperties@gmail.com
+                    </a>
                   </h5>
-                  <h5>+4.930.705.5448</h5>
+                  <h5>
+                    <a href="tel:+923465336367"> (+92) 346 533 6367</a>
+                  </h5>
                 </div>
                 <Split>
                   <h3 className="custom-font wow" data-splitting>
@@ -129,23 +133,23 @@ const ContactWithMap = ({ theme = "dark" }) => {
                 </Split>
                 <div className="item">
                   <h6>
-                    295 Witting Streets Suite 666,
-                    <br />
-                    Melbourne, Australia
+                    Aeon Marketing, Ground floor office, <br />
+                    Street 6, H-13, Islamabad.
                   </h6>
                 </div>
                 <div className="social mt-50">
-                  <a href="#0" className="icon">
+                  <a href="https://www.facebook.com/ISP006" className="icon">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-twitter"></i>
+                  <a
+                    href="https://www.instagram.com/aeonmarketingoffical/"
+                    className="icon">
+                    <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
+                  <a
+                    href="https://www.youtube.com/@aeonmarketing2913"
+                    className="icon">
+                    <i className="fab fa-youtube"></i>
                   </a>
                 </div>
               </div>

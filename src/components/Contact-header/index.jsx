@@ -6,9 +6,9 @@ const ContactHeader = ({ sliderRef }) => {
   React.useEffect(() => {
     setPageLoaded(true);
     if (pageLoaded) {
-      addParlx()
+      addParlx();
     }
-  }, [pageLoaded])
+  }, [pageLoaded]);
   return (
     <header ref={sliderRef} className="works-header fixed-slider hfixd valign">
       <div className="container">
@@ -17,10 +17,10 @@ const ContactHeader = ({ sliderRef }) => {
             <div className="capt mt-50">
               <div className="parlx">
                 <h2 className="custom-font">
-                  <span>Let&apos;s</span>Talk About Your project.
+                  <span>Let&apos;s</span>Talk About Your Growth.
                 </h2>
                 <p>
-                  Feel free to ask me any question or let&apos;s do to talk
+                  Feel free to ask us any question or let&apos;s do to talk
                   about our future collaboration.
                 </p>
               </div>
