@@ -6357,6 +6357,9 @@ header.simpl .caption .btn-curve {
   .hamenu .cont-info {
     display: none;
   }
+  .hamenu .social-icon {
+    display: none;
+  }
   .hamenu .menu-links .main-menu > li {
     font-size: 20px;
     padding: 7px;

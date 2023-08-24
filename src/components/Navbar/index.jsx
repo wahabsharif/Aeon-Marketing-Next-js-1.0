@@ -196,7 +196,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   </p>
                 </div>
               </div>
-              <div className="social-icon sm-d-none">
+              <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
                   <a
