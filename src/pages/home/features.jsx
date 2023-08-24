@@ -1,6 +1,6 @@
 import React from "react";
 import Split from "../../components/Split";
-import services4Data from "../../data/sections/home-features.json";
+import services4Data from "../../data/home/features.json";
 
 const Features = ({ withBG, withPadding, halfBG, withOutTitle }) => {
   return (

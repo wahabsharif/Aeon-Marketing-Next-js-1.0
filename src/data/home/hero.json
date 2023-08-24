@@ -2,24 +2,24 @@
   {
     "id": 1,
     "title": {
-      "first": "Unique",
-      "second": "brand Stories"
+      "first": "We Are Expert in",
+      "second": "Trading"
     },
     "image": "/img/slid/01.jpg"
   },
   {
     "id": 2,
     "title": {
-      "first": "Digital",
-      "second": "Design Awards"
+      "first": "We Are Expert in",
+      "second": " Investment Management"
     },
     "image": "/img/slid/03.jpg"
   },
   {
     "id": 3,
     "title": {
-      "first": "Original",
-      "second": "Solutions"
+      "first": "We Are Expert in",
+      "second": " Property Appraisals"
     },
     "image": "/img/slid/02.jpg"
   }

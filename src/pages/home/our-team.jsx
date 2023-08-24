@@ -3,7 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import team1Data from "../../data/sections/our-team.json";
+import team1Data from "../../data/home/our-team.json";
 
 class OurTeam extends React.Component {
   constructor(props) {
@@ -54,7 +54,7 @@ class OurTeam extends React.Component {
                     {
                       breakpoint: 1024,
                       settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 3,
                       },
                     },
                     {

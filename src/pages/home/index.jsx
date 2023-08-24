@@ -1,7 +1,6 @@
 import React from "react";
 import CallToAction from "../../components/Call-to-action";
 import Footer from "../../components/Footer";
-import IntroWithSlider2 from "../../components/Intro-with-slider2";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar";
 import CeoMessage from "./ceo-message";
@@ -11,12 +10,13 @@ import Societies from "./societies";
 import Testimonials from "./testimonials";
 import OurTeam from "./our-team";
 import GoogleMap from "../../components/Google-Map";
+import HomeHero from "./hero";
 
 const Home = () => {
   return (
     <DarkTheme>
       <Navbar />
-      <IntroWithSlider2 />
+      <HomeHero />
       <CeoMessage />
       <OurTeam />
       <WhoWeAre />
