@@ -225,7 +225,7 @@ span:hover {
 }
 
 .bg-img {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 40rem;
 }
@@ -1376,9 +1376,9 @@ body {
 .sec-head h6 {
   color: #ec2c34;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 50px;
   text-transform: uppercase;
-  letter-spacing: 14px;
+  letter-spacing: 15px;
   margin-bottom: 5px;
 }
 .sec-head h3 {
@@ -4300,7 +4300,6 @@ header.simpl .caption .btn-curve {
 .work-carousel .noraidus .cont {
   position: relative;
   text-align: center;
-  padding-top: 30px;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.4s;
@@ -6319,8 +6318,8 @@ header.simpl .caption .btn-curve {
     font-size: 45px;
   }
   .sec-head h6 {
-    font-size: 15px;
-    letter-spacing: 5px;
+    font-size: 50px;
+    letter-spacing: 10px;
   }
   .skills-circle {
     padding-bottom: 0 !important;

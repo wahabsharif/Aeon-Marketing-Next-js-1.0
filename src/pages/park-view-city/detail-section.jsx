@@ -204,32 +204,6 @@ const AboutUs2 = ({ skillsTheme }) => {
             </div>
           </div>
         </div>
-        <div className="row my-4">
-          <div className="col-lg-6">
-            <div className="blc-img">
-              <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 valign">
-            <div className="content">
-              <div className="sub-title">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <Split>
-                <h3
-                  className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
-                  Payment Plan
-                </h3>
-              </Split>
-              <p className="wow fadeInUp" data-wow-delay=".4s"></p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -6,6 +6,7 @@ import Navbar from "../../components/Navbar";
 import DarkTheme from "../../layouts/Dark";
 import Gallery from "./gallery";
 import Hero from "./hero";
+import PaymentPlan from "./payment-plan";
 
 const Homepage4 = () => {
   const fixedSlider = React.useRef(null);
@@ -32,6 +33,7 @@ const Homepage4 = () => {
         <About />
         <Gallery />
         <DetailSection />
+        <PaymentPlan /> 
         <Footer />
       </div>
     </DarkTheme>

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Taj Residencia",
+    "secTex": "Dream Valley",
+    "image": "/img/taj-residencia/Taj-Residencia-Dream-Valley-Payment-Plan.jpg",
+    "slug": "/img/taj-residencia/Taj-Residencia-Dream-Valley-Payment-Plan.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Taj Residencia",
+    "secTex": "Commercial Plot",
+    "image": "/img/taj-residencia/Taj-Residencia-Commercial-Plot-Payment-Plan.jpg",
+    "slug": "/img/taj-residencia/Taj-Residencia-Commercial-Plot-Payment-Plan.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Taj Residencia",
+    "secTex": "Residential Plots",
+    "image": "/img/taj-residencia/Taj-Residencia-Residential-Plots-Payment-Plan.jpg",
+    "slug": "/img/taj-residencia/Taj-Residencia-Residential-Plots-Payment-Plan.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Taj Residencia",
+    "secTex": "5 Marla Residential",
+    "image": "/img/taj-residencia/Taj-Residencia-5-Marla-Residencial-Payment-Plan.jpg",
+    "slug": "/img/taj-residencia/Taj-Residencia-5-Marla-Residencial-Payment-Plan.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Taj Residencia",
+    "secTex": "8 Marla Residential Pakistan Package",
+    "image": "/img/taj-residencia/Taj-Residencia-8-Marla-Residencial-Payment-Plan-Pakistan-package.jpg",
+    "slug": "/img/taj-residencia/Taj-Residencia-8-Marla-Residencial-Payment-Plan-Pakistan-package.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Taj Residencia",
+    "secTex": "8 Marla Residential",
+    "image": "/img/taj-residencia/Taj-Residencia-8-Marla-Residencial-Payment-Plan.jpg",
+    "slug": "/img/taj-residencia/Taj-Residencia-8-Marla-Residencial-Payment-Plan.jpg"
+  }
+]
