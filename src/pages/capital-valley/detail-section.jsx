@@ -42,25 +42,28 @@ const AboutUs2 = ({ skillsTheme }) => {
                 Capital Valley Islamabad is positioned at an incredibly
                 convenient juncture, with prominent landmarks just a few
                 kilometers from its vicinity.
+                <ul className="wow fadeInUp" data-wow-delay=".4s">
+                  <li>1. Islamabad International Airport 0 km</li>
+                  <li>2. Thalian Interchange 5 Minutes</li>
+                  <li>3. Motorway M2 5 Minutes</li>
+                  <li>4. G-13 20 Minutes</li>
+                  <li>5. Srinagar Highway 10 Minutes</li>
+                  <li>6. Peshawar Road 15 Minutes</li>
+                  <li>7. Quaid e Azam International Hospital 22 Minutes</li>
+                  <li>8. Saddar 30 Minutes</li>
+                  <li>9. Jinnah Super Market 34 Minutes</li>
+                  <li>10. Ring Road 3 Minutes</li>
+                </ul>
               </p>
-              <ul className="wow fadeInUp" data-wow-delay=".4s">
-                <li>1. Islamabad International Airport 0 km</li>
-                <li>2. Thalian Interchange 5 Minutes</li>
-                <li>3. Motorway M2 5 Minutes</li>
-                <li>4. G-13 20 Minutes</li>
-                <li>5. Srinagar Highway 10 Minutes</li>
-                <li>6. Peshawar Road 15 Minutes</li>
-                <li>7. Quaid e Azam International Hospital 22 Minutes</li>
-                <li>8. Saddar 30 Minutes</li>
-                <li>9. Jinnah Super Market 34 Minutes</li>
-                <li>10. Ring Road 3 Minutes</li>
-              </ul>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img
+                  src="/img/capital-valley/Location.png"
+                  alt="Capital Valley Location"
+                />
               </div>
             </div>
           </div>
@@ -69,7 +72,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/capital-valley/Developers.png" alt="" />
               </div>
             </div>
           </div>
@@ -154,7 +157,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/capital-valley/executive-block.png" alt="" />
               </div>
             </div>
           </div>
@@ -163,7 +166,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/capital-valley/general-block.png" alt="" />
               </div>
             </div>
           </div>

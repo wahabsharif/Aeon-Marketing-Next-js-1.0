@@ -195,17 +195,69 @@ const AboutUs2 = ({ skillsTheme }) => {
                 <h3
                   className="co-tit custom-font wow words chars splitting"
                   data-splitting>
-                  Payment Plan
+                  LOCATION & MAP
                 </h3>
               </Split>
-              <p className="wow fadeInUp" data-wow-delay=".4s"></p>
+              <p className="wow fadeInUp" data-wow-delay=".4s">
+                The significance of location holds paramount importance for both
+                investors and potential residents when contemplating property
+                purchases. The rationale behind this emphasis is rooted in the
+                safety and convenience that a well-chosen area can offer for
+                daily living requirements. Prior to making a property
+                acquisition, buyers often prioritize confirming its
+                accessibility from major city arteries.
+              </p>
+              <p className="wow fadeInUp" data-wow-delay=".4s">
+                The Kingdom Valley project distinctly excels in this aspect as
+                it occupies a prime position proximate to Islamabad. Positioned
+                along the M2 Motorway, it enjoys close proximity to the new
+                Islamabad International Airport. Additionally, its location
+                boasts the advantage of being a mere 15-minute drive from the
+                Srinagar Highway (Kashmir Highway). This strategic placement
+                solidifies Kingdom Valley&apos;s stature as a prime
+                developmental endeavor within Islamabad&apos;s landscape.
+              </p>
+              <p className="wow fadeInUp" data-wow-delay=".4s">
+                Noteworthy neighboring projects, including Capital Smart City,
+                Blue World City, and Mumtaz City, further enhance the
+                area&apos;s appeal. The location also enjoys the advantage of
+                being approximately 5 kilometers from the Rawalpindi Ring Road.
+                Notably, it establishes vital linkages to Bahria Town, DHA
+                (Defence Housing Authority), and the New International Airport.
+              </p>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
+                <img src="/img/kingdom-valley/location.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row my-4">
+          <div className="col-lg-6">
+            <div className="blc-img">
+              <div className="bimg wow imago">
                 <img src="/img/intro/3.jpg" alt="" />
               </div>
+            </div>
+          </div>
+          <div className="col-lg-6 valign">
+            <div className="content">
+              <div className="sub-title">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <Split>
+                <h3
+                  className="co-tit custom-font wow words chars splitting"
+                  data-splitting>
+                  Payment Plan
+                </h3>
+              </Split>
+              <p className="wow fadeInUp" data-wow-delay=".4s"></p>
             </div>
           </div>
         </div>

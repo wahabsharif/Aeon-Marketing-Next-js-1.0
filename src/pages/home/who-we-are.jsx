@@ -19,7 +19,7 @@ const WhoWeAre = () => {
             <div className="img">
               <img
                 className="thumparallax-down"
-                src="/img/min-area.jpg"
+                src="/img/who-we-are.png"
                 alt=""
               />
             </div>

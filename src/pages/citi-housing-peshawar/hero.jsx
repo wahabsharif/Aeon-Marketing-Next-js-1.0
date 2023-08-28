@@ -1,7 +1,6 @@
 import React from "react";
 import introData from "../../data/citi-housing-peshawar/hero.json";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Link from "next/link";
 import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
 
 import "swiper/css";
@@ -102,11 +101,6 @@ const Hero = ({ sliderRef }) => {
                             </h1>
                           </Split>
                           {slide?.content && <p>{slide.content}</p>}
-                          <Link href="/about/about-dark">
-                            <a className="btn-curve btn-lit mt-30">
-                              <span>Look More</span>
-                            </a>
-                          </Link>
                         </div>
                       </div>
                     </div>

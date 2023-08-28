@@ -2,25 +2,28 @@
   {
     "id": 1,
     "title": {
-      "first": "Unique",
-      "second": "brand Stories"
+      "first": "Brace YourSelf",
+      "second": "We Are Coming Soon"
     },
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
-    "image": "/img/slid/01.jpg"
+    "content": "",
+    "image": "/img/bahria-town-peshawar/bahria-hero.jpg"
   },
   {
     "id": 2,
     "title": {
-      "first": "Digital",
-      "second": "Design Awards"
+      "first": "Brace YourSelf",
+      "second": "We Are Coming Soon"
     },
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
-    "image": "/img/slid/03.jpg"
+    "content": "",
+    "image": "/img/bahria-town-peshawar/bahria-hero.jpg"
   },
   {
     "id": 3,
-    "title": "Original Solutions",
-    "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
-    "image": "/img/slid/02.jpg"
+    "title": {
+      "first": "Brace YourSelf",
+      "second": "We Are Coming Soon"
+    },
+    "content": "",
+    "image": "/img/bahria-town-peshawar/bahria-hero.jpg"
   }
 ]

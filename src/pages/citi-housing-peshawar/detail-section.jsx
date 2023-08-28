@@ -114,13 +114,13 @@ const AboutUs2 = ({ skillsTheme }) => {
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".4s">
                 Offer an extensive assortment of amenities and facilities.
+                <ul className="wow fadeInUp" data-wow-delay=".4s">
+                  <li>01. PARKS AND COMMUNITY CENTERS</li>
+                  <li>02. EDUCATIONAL INSTITUTIONS</li>
+                  <li>03. HEALTH FACILITIES</li>
+                  <li>04. SECURITY AND SAFETY</li>
+                </ul>
               </p>
-              <ul className="wow fadeInUp" data-wow-delay=".4s">
-                <li>01. PARKS AND COMMUNITY CENTERS</li>
-                <li>02. EDUCATIONAL INSTITUTIONS</li>
-                <li>03. HEALTH FACILITIES</li>
-                <li>04. SECURITY AND SAFETY</li>
-              </ul>
             </div>
           </div>
           <div className="col-lg-6">

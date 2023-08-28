@@ -32,7 +32,10 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link href="/bahria-town-peshawar">
                 <a>
-                  <img src="/img/portfolio/works/1.jpg" alt="image" />
+                  <img
+                    src="/img/bahria-town-peshawar/baria-project-(1920 x 2715).png"
+                    alt="Bahria Town Peshawar"
+                  />
                 </a>
               </Link>
               <div className="cont">
@@ -47,7 +50,10 @@ const Societies = () => {
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                   <Link href="/citi-housing-peshawar">
                     <a>
-                      <img src="/img/portfolio/works/2.jpg" alt="image" />
+                      <img
+                        src="/img/citi-housing-peshawar/citii-housing-project-(600x446).png"
+                        alt="image"
+                      />
                     </a>
                   </Link>
                   <div className="cont">
@@ -62,7 +68,10 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link href="/capital-valley">
                 <a>
-                  <img src="/img/portfolio/works/3.jpg" alt="image" />
+                  <img
+                    src="/img/capital-valley/capital-valley-project-(1759x2500).png"
+                    alt="image"
+                  />
                 </a>
               </Link>
               <div className="cont">
@@ -77,7 +86,10 @@ const Societies = () => {
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                   <Link href="/park-view-city">
                     <a>
-                      <img src="/img/portfolio/works/6.jpg" alt="image" />
+                      <img
+                        src="/img/park-view-city/park-view-city-project-1-(600x446).png"
+                        alt="park view city"
+                      />
                     </a>
                   </Link>
                   <div className="cont">
@@ -94,7 +106,10 @@ const Societies = () => {
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                   <Link href="/taj-residencia">
                     <a>
-                      <img src="/img/portfolio/works/5.jpg" alt="image" />
+                      <img
+                        src="/img/taj-residencia/taj-residencia-project-(600x848).png"
+                        alt="image"
+                      />
                     </a>
                   </Link>
                   <div className="cont">
@@ -109,7 +124,10 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link href="/rudn-enclave">
                 <a>
-                  <img src="/img/portfolio/works/4.jpg" alt="image" />
+                  <img
+                    src="/img/rudn-enclave/rudn-enclave-project-(600x446).png"
+                    alt="rudn enclave"
+                  />
                 </a>
               </Link>
               <div className="cont">
@@ -124,7 +142,10 @@ const Societies = () => {
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                   <Link href="/kingdom-valley">
                     <a>
-                      <img src="/img/portfolio/works/7.jpg" alt="image" />
+                      <img
+                        src="/img/kingdom-valley/kingdom-valley-project-(600x848).png"
+                        alt="image"
+                      />
                     </a>
                   </Link>
                   <div className="cont">
@@ -139,7 +160,10 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link href="/nmc-gujar-khan">
                 <a>
-                  <img src="/img/portfolio/works/8.jpg" alt="image" />
+                  <img
+                    src="/img/nmc-gujar-khan/new-metro-city-project-(600x446).png"
+                    alt="New Metro City Gujar Khan"
+                  />
                 </a>
               </Link>
               <div className="cont">

@@ -62,7 +62,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/park-view-city/proximity.jpg" alt="" />
               </div>
             </div>
           </div>
