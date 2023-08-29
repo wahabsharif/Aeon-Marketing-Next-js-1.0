@@ -52,20 +52,16 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img
+                  src="/img/citi-housing-peshawar/Location.webp"
+                  alt="Location"
+                />
               </div>
             </div>
           </div>
         </div>
         <div className="row my-4">
-          <div className="col-lg-6">
-            <div className="blc-img">
-              <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 valign">
+          <div className="col-lg-12 valign">
             <div className="content">
               <div className="sub-title">
                 <span></span>
@@ -126,20 +122,16 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img
+                  src="/img/citi-housing-peshawar/citi-housing-amenities.webp"
+                  alt=""
+                />
               </div>
             </div>
           </div>
         </div>
         <div className="row my-4">
-          <div className="col-lg-6">
-            <div className="blc-img">
-              <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 valign">
+          <div className="col-lg-12 valign">
             <div className="content">
               <div className="sub-title">
                 <span></span>
@@ -160,36 +152,6 @@ const AboutUs2 = ({ skillsTheme }) => {
                 alluring prospects for investment, holding the promise of
                 substantial gains and a thriving real estate arena.
               </p>
-            </div>
-          </div>
-        </div>
-        <div className="row my-4">
-          <div className="col-lg-6 valign">
-            <div className="content">
-              <div className="sub-title">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <Split>
-                <h3
-                  className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
-                  PAYMENT PLAN
-                </h3>
-              </Split>
-              <p className="wow fadeInUp" data-wow-delay=".4s">
-                Citi Housing presents the option of 5 and 10 marla as well as 1
-                and 2 kanal plots, available for purchase through convenient
-                installment plans.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="blc-img">
-              <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
-              </div>
             </div>
           </div>
         </div>

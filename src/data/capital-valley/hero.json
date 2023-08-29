@@ -6,7 +6,7 @@
       "second": "Islamabad"
     },
     "content": "",
-    "image": "/img/capital-valley/hero-1.jpg"
+    "image": "/img/capital-valley/hero-1.webp"
   },
   {
     "id": 2,
@@ -15,12 +15,12 @@
       "second": "From Airport"
     },
     "content": "",
-    "image": "/img/capital-valley/hero-2.jpg"
+    "image": "/img/capital-valley/hero-2.webp"
   },
   {
     "id": 3,
     "title": "Few minutes away from Kashmir Highway",
     "content": "",
-    "image": "/img/capital-valley/hero-3.jpg"
+    "image": "/img/capital-valley/hero-3.webp"
   }
 ]

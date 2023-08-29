@@ -61,7 +61,7 @@ const AboutUs2 = ({ skillsTheme }) => {
             <div className="blc-img">
               <div className="bimg wow imago">
                 <img
-                  src="/img/capital-valley/Location.png"
+                  src="/img/capital-valley/Location.webp"
                   alt="Capital Valley Location"
                 />
               </div>
@@ -72,7 +72,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/capital-valley/Developers.png" alt="" />
+                <img src="/img/capital-valley/Developers.webp" alt="" />
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/capital-valley/executive-block.png" alt="" />
+                <img src="/img/capital-valley/executive-block.webp" alt="" />
               </div>
             </div>
           </div>
@@ -166,7 +166,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/capital-valley/general-block.png" alt="" />
+                <img src="/img/capital-valley/general-block.webp" alt="" />
               </div>
             </div>
           </div>

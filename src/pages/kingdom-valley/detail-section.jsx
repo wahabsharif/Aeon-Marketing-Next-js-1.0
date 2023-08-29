@@ -64,7 +64,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/kingdom-valley/Developer-Owner.webp" alt="" />
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/kingdom-valley/Features.webp" alt="" />
               </div>
             </div>
           </div>
@@ -137,20 +137,13 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/kingdom-valley/Master-Plan.webp" alt="" />
               </div>
             </div>
           </div>
         </div>
         <div className="row my-4">
-          <div className="col-lg-6">
-            <div className="blc-img">
-              <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 valign">
+          <div className="col-lg-12 valign">
             <div className="content">
               <div className="sub-title">
                 <span></span>
@@ -184,6 +177,13 @@ const AboutUs2 = ({ skillsTheme }) => {
           </div>
         </div>
         <div className="row my-4">
+          <div className="col-lg-6">
+            <div className="blc-img">
+              <div className="bimg wow imago">
+                <img src="/img/kingdom-valley/location.webp" alt="" />
+              </div>
+            </div>
+          </div>
           <div className="col-lg-6 valign">
             <div className="content">
               <div className="sub-title">
@@ -225,13 +225,6 @@ const AboutUs2 = ({ skillsTheme }) => {
                 Notably, it establishes vital linkages to Bahria Town, DHA
                 (Defence Housing Authority), and the New International Airport.
               </p>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="blc-img">
-              <div className="bimg wow imago">
-                <img src="/img/kingdom-valley/location.jpg" alt="" />
-              </div>
             </div>
           </div>
         </div>

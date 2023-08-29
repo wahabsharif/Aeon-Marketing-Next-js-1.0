@@ -43,7 +43,7 @@ const CeoMessage = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/faheem-1.jpeg" alt="" />
+                <img src="/img/faheem-1.webp" alt="" />
               </div>
             </div>
           </div>

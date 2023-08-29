@@ -22,7 +22,7 @@ const Gallery = () => {
               <Link href="/gallery">
                 <a>
                   <img
-                    src="/img/citi-housing-peshawar/Galley-2-(1920x2715).png"
+                    src="/img/citi-housing-peshawar/Galley-2-(1920x2715).webp"
                     alt="image"
                   />
                 </a>
@@ -37,7 +37,7 @@ const Gallery = () => {
                   <Link href="/gallery">
                     <a>
                       <img
-                        src="/img/citi-housing-peshawar/Gallery-1-(600x446).png"
+                        src="/img/citi-housing-peshawar/Gallery-1-(600x446).webp"
                         alt="image"
                       />
                     </a>
@@ -52,7 +52,7 @@ const Gallery = () => {
               <Link href="/gallery">
                 <a>
                   <img
-                    src="/img/citi-housing-peshawar/Galley-3-(1759x2500).png"
+                    src="/img/citi-housing-peshawar/Galley-3-(1759x2500).webp"
                     alt="image"
                   />
                 </a>
@@ -67,7 +67,7 @@ const Gallery = () => {
                   <Link href="/gallery">
                     <a>
                       <img
-                        src="/img/citi-housing-peshawar/Galley-4-(600x446).png"
+                        src="/img/citi-housing-peshawar/Galley-4-(600x446).webp"
                         alt="image"
                       />
                     </a>
@@ -84,7 +84,7 @@ const Gallery = () => {
                   <Link href="/gallery">
                     <a>
                       <img
-                        src="/img/citi-housing-peshawar/Galley-7-(600x848).png"
+                        src="/img/citi-housing-peshawar/Galley-7-(600x848).webp"
                         alt="image"
                       />
                     </a>
@@ -99,7 +99,7 @@ const Gallery = () => {
               <Link href="/gallery">
                 <a>
                   <img
-                    src="/img/citi-housing-peshawar/Galley-5-(600x446).png"
+                    src="/img/citi-housing-peshawar/Galley-5-(600x446).webp"
                     alt="image"
                   />
                 </a>
@@ -114,7 +114,7 @@ const Gallery = () => {
                   <Link href="/gallery">
                     <a>
                       <img
-                        src="/img/citi-housing-peshawar/Galley-8-(600x848).png"
+                        src="/img/citi-housing-peshawar/Galley-8-(600x848).webp"
                         alt="image"
                       />
                     </a>
@@ -129,7 +129,7 @@ const Gallery = () => {
               <Link href="/gallery">
                 <a>
                   <img
-                    src="/img/citi-housing-peshawar/Galley-6-(600x446).png"
+                    src="/img/citi-housing-peshawar/Galley-6-(600x446).webp"
                     alt="image"
                   />
                 </a>

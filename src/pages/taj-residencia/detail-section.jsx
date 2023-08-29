@@ -53,7 +53,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/taj-residencia/proximity.jpg" alt="" />
+                <img src="/img/taj-residencia/proximity.webp" alt="" />
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/taj-residencia/master-plan.webp" alt="" />
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           </div>
         </div>
         <div className="row my-4">
-          <div className="col-lg-6 valign">
+          <div className="col-lg-12 valign">
             <div className="content">
               <div className="sub-title">
                 <span></span>
@@ -121,23 +121,9 @@ const AboutUs2 = ({ skillsTheme }) => {
               </p>
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="blc-img">
-              <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
-              </div>
-            </div>
-          </div>
         </div>
         <div className="row my-4">
-          <div className="col-lg-6">
-            <div className="blc-img">
-              <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 valign">
+          <div className="col-lg-12 valign">
             <div className="content">
               <div className="sub-title">
                 <span></span>
@@ -195,7 +181,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/taj-residencia/amenities.jpg" alt="" />
+                <img src="/img/taj-residencia/amenities.webp" alt="" />
               </div>
             </div>
           </div>

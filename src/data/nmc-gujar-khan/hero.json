@@ -6,7 +6,7 @@
       "second": ""
     },
     "content": "",
-    "image": "/img/nmc-gujar-khan/hero-1.jpg"
+    "image": "/img/nmc-gujar-khan/hero-1.webp"
   },
   {
     "id": 2,
@@ -15,12 +15,12 @@
       "second": ""
     },
     "content": "",
-    "image": "/img/nmc-gujar-khan/hero-2.jpg"
+    "image": "/img/nmc-gujar-khan/hero-2.webp"
   },
   {
     "id": 3,
     "title": "",
     "content": "",
-    "image": "/img/nmc-gujar-khan/hero-3.jpg"
+    "image": "/img/nmc-gujar-khan/hero-3.webp"
   }
 ]

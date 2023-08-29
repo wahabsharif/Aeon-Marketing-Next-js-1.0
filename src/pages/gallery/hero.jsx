@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       className="page-header proj-det bg-img parallaxie valign"
-      style={{ backgroundImage: "url(/img/gallery/hero-img.jpg)" }}
+      style={{ backgroundImage: "url(/img/gallery/hero-img.webp)" }}
       data-overlay-dark="4"></section>
   );
 };

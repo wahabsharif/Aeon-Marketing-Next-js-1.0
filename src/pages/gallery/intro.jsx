@@ -7,26 +7,32 @@ const Intro = () => {
         <div className="row">
           <div className="col-lg-3 col-md-4">
             <div className="htit">
-              <h4>
-                <span>01 </span> Introduction
-              </h4>
+              <h4>&quot;Our Memories&quot;</h4>
             </div>
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text js-scroll__content">
               <p className="extra-text">
-                We are a Creative Agency &amp; Startup Studio that provides
-                Digital Products and Services turns to focus on client success.
-                We specialize in user interface design, including front-end
-                development which we consider to be an integral part.
+                At the heart of our journey lies a treasury of cherished
+                moments, a tapestry woven with threads of laughter, warmth, and
+                shared experiences. &quot;Our Memories&quot; encapsulates the
+                essence of these precious times that have defined our lives and
+                connected us in an enduring bond.
               </p>
-
-              <ul className="smp-list mt-30">
-                <li>Aenean sollicitudin</li>
-                <li>lorem quis bibendum auctor</li>
-                <li>nisi elit conseq uat ipsum</li>
-                <li>nec sagittis sem nibh id elit</li>
-              </ul>
+              <p className="extra-text">
+                Every smile, every adventure, and every heartfelt conversation
+                has sculpted the story of us. Whether it&apos;s the echo of
+                laughter from a carefree afternoon or the gentle embrace of a
+                shared sunset, these memories paint a canvas of emotions that we
+                hold close to our hearts.
+              </p>
+              <p className="extra-text">
+                Join us as we continue to add new chapters, explore uncharted
+                territories, and create more moments to treasure. &quot;Our
+                Memories&quot; is a tribute to the incredible journey we&apos;ve
+                embarked upon, and an ode to the countless memories that light
+                our way forward.
+              </p>
             </div>
           </div>
         </div>

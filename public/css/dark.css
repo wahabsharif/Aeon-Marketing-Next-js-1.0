@@ -244,7 +244,7 @@ span:hover {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .section-ptb {
@@ -1783,7 +1783,7 @@ body {
   padding: 0 50px;
 }
 .topnav .logo {
-  width: 100px;
+  width: 350px;
 }
 .topnav .menu-icon {
   margin-left: auto;
@@ -1796,7 +1796,7 @@ body {
   animation-delay: calc(30ms * var(--char-index));
 }
 .topnav .menu-icon .text {
-  font-size: 13px;
+  font-size: 25px;
   font-weight: 500;
   padding-left: 15px;
   display: table-cell;
@@ -3991,6 +3991,8 @@ header.simpl .caption .btn-curve {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  border: #ec2c34 solid 3px;
+  border-radius: 10px;
 }
 .portfolio .gallery .items .item-img .cont {
   position: absolute;
@@ -6216,7 +6218,9 @@ header.simpl .caption .btn-curve {
     padding: 0 30px;
   }
   .topnav .logo {
-    width: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
   }
   .btn-curve {
     padding: 8px 15px;

@@ -1,37 +1,30 @@
 [
   {
     "id": 1,
-    "title": "art & illustration",
-    "secTex": "Innovation and Crafts",
-    "image": "/img/portfolio/metro/01.jpg",
-    "slug": "/project-details2/project-details2-dark"
+    "title": "Rudn Enclave",
+    "secTex": "Dam View",
+    "image": "/img/rudn-enclave/Dam-View-Payment-Plan.webp",
+    "slug": "/img/rudn-enclave/Dam-View-Payment-Plan.webp"
   },
   {
     "id": 2,
-    "title": "art & illustration",
-    "secTex": "Inspiring new space",
-    "image": "/img/portfolio/metro/02.jpg",
-    "slug": "/project-details2/project-details2-dark"
+    "title": "Rudn Enclave",
+    "secTex": "Executive Block",
+    "image": "/img/rudn-enclave/Executive-Block-payment-plan.webp",
+    "slug": "/img/rudn-enclave/Executive-Block-payment-plan.webp"
   },
   {
     "id": 3,
-    "title": "art & illustration",
-    "secTex": "Natural plus modern",
-    "image": "/img/portfolio/metro/03.jpg",
-    "slug": "/project-details2/project-details2-dark"
+    "title": "Rudn Enclave",
+    "secTex": "Executive Commercial Plot",
+    "image": "/img/rudn-enclave/Executive-Commercial-Plot-payment-plan.webp",
+    "slug": "/img/rudn-enclave/Executive-Commercial-Plot-payment-plan.webp"
   },
   {
     "id": 4,
-    "title": "art & illustration",
-    "secTex": "Innovation and Crafts",
-    "image": "/img/portfolio/metro/04.jpg",
-    "slug": "/project-details2/project-details2-dark"
-  },
-  {
-    "id": 5,
-    "title": "art & illustration",
-    "secTex": "Natural plus modern",
-    "image": "/img/portfolio/metro/05.jpg",
-    "slug": "/project-details2/project-details2-dark"
+    "title": "Rudn Enclave",
+    "secTex": "Executive Commercial Plot",
+    "image": "/img/rudn-enclave/Executive-Block-Commercial-Plot-payment-plan.webp",
+    "slug": "/img/rudn-enclave/Executive-Block-Commercial-Plot-payment-plan.webp"
   }
 ]

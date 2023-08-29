@@ -33,7 +33,7 @@ const Societies = () => {
               <Link href="/bahria-town-peshawar">
                 <a>
                   <img
-                    src="/img/bahria-town-peshawar/baria-project-(1920 x 2715).png"
+                    src="/img/bahria-town-peshawar/baria-project-(1920 x 2715).webp"
                     alt="Bahria Town Peshawar"
                   />
                 </a>
@@ -51,7 +51,7 @@ const Societies = () => {
                   <Link href="/citi-housing-peshawar">
                     <a>
                       <img
-                        src="/img/citi-housing-peshawar/citii-housing-project-(600x446).png"
+                        src="/img/citi-housing-peshawar/citii-housing-project-(600x446).webp"
                         alt="image"
                       />
                     </a>
@@ -69,7 +69,7 @@ const Societies = () => {
               <Link href="/capital-valley">
                 <a>
                   <img
-                    src="/img/capital-valley/capital-valley-project-(1759x2500).png"
+                    src="/img/capital-valley/capital-valley-project-(1759x2500).webp"
                     alt="image"
                   />
                 </a>
@@ -87,7 +87,7 @@ const Societies = () => {
                   <Link href="/park-view-city">
                     <a>
                       <img
-                        src="/img/park-view-city/park-view-city-project-1-(600x446).png"
+                        src="/img/park-view-city/park-view-city-project-1-(600x446).webp"
                         alt="park view city"
                       />
                     </a>
@@ -107,7 +107,7 @@ const Societies = () => {
                   <Link href="/taj-residencia">
                     <a>
                       <img
-                        src="/img/taj-residencia/taj-residencia-project-(600x848).png"
+                        src="/img/taj-residencia/taj-residencia-project-(600x848).webp"
                         alt="image"
                       />
                     </a>
@@ -125,7 +125,7 @@ const Societies = () => {
               <Link href="/rudn-enclave">
                 <a>
                   <img
-                    src="/img/rudn-enclave/rudn-enclave-project-(600x446).png"
+                    src="/img/rudn-enclave/rudn-enclave-project-(600x446).webp"
                     alt="rudn enclave"
                   />
                 </a>
@@ -143,7 +143,7 @@ const Societies = () => {
                   <Link href="/kingdom-valley">
                     <a>
                       <img
-                        src="/img/kingdom-valley/kingdom-valley-project-(600x848).png"
+                        src="/img/kingdom-valley/kingdom-valley-project-(600x848).webp"
                         alt="image"
                       />
                     </a>
@@ -161,7 +161,7 @@ const Societies = () => {
               <Link href="/nmc-gujar-khan">
                 <a>
                   <img
-                    src="/img/nmc-gujar-khan/new-metro-city-project-(600x446).png"
+                    src="/img/nmc-gujar-khan/new-metro-city-project-(600x446).webp"
                     alt="New Metro City Gujar Khan"
                   />
                 </a>

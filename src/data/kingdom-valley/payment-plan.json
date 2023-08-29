@@ -3,42 +3,42 @@
     "id": 1,
     "title": "Kingdom Valley",
     "secTex": "Farm House",
-    "image": "/img/kingdom-valley/farm-house-payment-plan.jpg",
-    "slug": "/img/kingdom-valley/farm-house-payment-plan.jpg"
+    "image": "/img/kingdom-valley/farm-house-payment-plan.webp",
+    "slug": "/img/kingdom-valley/farm-house-payment-plan.webp"
   },
   {
     "id": 2,
     "title": "Kingdom Valley",
     "secTex": "General Block",
-    "image": "/img/kingdom-valley/general-block-payment-plan.jpg",
-    "slug": "/img/kingdom-valley/general-block-payment-plan.jpg"
+    "image": "/img/kingdom-valley/general-block-payment-plan.webp",
+    "slug": "/img/kingdom-valley/general-block-payment-plan.webp"
   },
   {
     "id": 3,
     "title": "Kingdom Valley",
     "secTex": "Kingdom Villas",
-    "image": "/img/kingdom-valley/kingdom-villas-payment-plan.jpg",
-    "slug": "/img/kingdom-valley/kingdom-villas-payment-plan.jpg"
+    "image": "/img/kingdom-valley/kingdom-villas-payment-plan.webp",
+    "slug": "/img/kingdom-valley/kingdom-villas-payment-plan.webp"
   },
   {
     "id": 4,
     "title": "Kingdom Valley",
     "secTex": "Commercial Plots",
-    "image": "/img/kingdom-valley/commercial-plot-payment-plan.jpg",
-    "slug": "/img/kingdom-valley/commercial-plot-payment-plan.jpg"
+    "image": "/img/kingdom-valley/commercial-plot-payment-plan.webp",
+    "slug": "/img/kingdom-valley/commercial-plot-payment-plan.webp"
   },
   {
     "id": 5,
     "title": "Kingdom Valley",
     "secTex": "Executive Blocks",
-    "image": "/img/kingdom-valley/executive-block-payment-plan.jpg",
-    "slug": "/img/kingdom-valley/executive-block-payment-plan.jpg"
+    "image": "/img/kingdom-valley/executive-block-payment-plan.webp",
+    "slug": "/img/kingdom-valley/executive-block-payment-plan.webp"
   },
   {
     "id": 5,
     "title": "Kingdom Valley",
     "secTex": "Overseas Executive Block",
-    "image": "/img/kingdom-valley/overseas-executive-block-payment-plan.jpg",
-    "slug": "/img/kingdom-valley/overseas-executive-block-payment-plan.jpg"
+    "image": "/img/kingdom-valley/overseas-executive-block-payment-plan.webp",
+    "slug": "/img/kingdom-valley/overseas-executive-block-payment-plan.webp"
   }
 ]

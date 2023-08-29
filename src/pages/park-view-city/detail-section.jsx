@@ -53,7 +53,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/park-view-city/Developer.webp" alt="" />
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/park-view-city/proximity.jpg" alt="" />
+                <img src="/img/park-view-city/proximity.webp" alt="" />
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/park-view-city/NOC.webp" alt="" />
               </div>
             </div>
           </div>
@@ -134,7 +134,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/park-view-city/master-plan.webp" alt="" />
               </div>
             </div>
           </div>
@@ -199,7 +199,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/park-view-city/Features.webp" alt="" />
               </div>
             </div>
           </div>

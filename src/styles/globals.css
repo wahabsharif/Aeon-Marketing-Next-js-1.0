@@ -68,6 +68,7 @@ body .slick-dots li button {
 }
 .topnav .menu-icon {
   display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 991px) {
   .collapse {

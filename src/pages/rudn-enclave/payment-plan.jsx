@@ -1,5 +1,5 @@
 import React from "react";
-import works1SliderData from "../../data/taj-residencia/payment-plan.json";
+import works1SliderData from "../../data/rudn-enclave/payment-plan.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Split from "../../components/Split";
 // import Swiper core and required modules
@@ -81,9 +81,7 @@ const PaymentPlan = () => {
                     <div
                       className="content wow noraidus fadeInUp"
                       data-wow-delay=".3s">
-                      <Link
-                        href="/pdf/park-view-city-payment-plan.pdf"
-                        passHref>
+                      <Link href="/pdf/rudn-enclave-payment-plan.pdf" passHref>
                         <div
                           className="item-img bg-img wow imago"
                           style={{
@@ -92,12 +90,12 @@ const PaymentPlan = () => {
                       </Link>
                       <div className="cont">
                         <h6 className="color-font">
-                          <Link href="/pdf/park-view-city-payment-plan.pdf">
+                          <Link href="/pdf/rudn-enclave-payment-plan.pdf">
                             {slide.title}
                           </Link>
                         </h6>
                         <h4>
-                          <Link href="/pdf/park-view-city-payment-plan.pdf">
+                          <Link href="/pdf/rudn-enclave-payment-plan.pdf">
                             {slide.secTex}
                           </Link>
                         </h4>

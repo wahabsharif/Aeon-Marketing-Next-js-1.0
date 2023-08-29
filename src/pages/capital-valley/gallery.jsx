@@ -22,7 +22,7 @@ const Gallery = () => {
               <Link href="/gallery">
                 <a>
                   <img
-                    src="/img/capital-valley/gallery-1-(1920x2715).png"
+                    src="/img/capital-valley/gallery-1-(1920x2715).webp"
                     alt="image"
                   />
                 </a>
@@ -37,7 +37,7 @@ const Gallery = () => {
                   <Link href="/gallery">
                     <a>
                       <img
-                        src="/img/capital-valley/gallery-1-(600 x 446).png"
+                        src="/img/capital-valley/gallery-1-(600 x 446).webp"
                         alt="image"
                       />
                     </a>
@@ -52,7 +52,7 @@ const Gallery = () => {
               <Link href="/gallery">
                 <a>
                   <img
-                    src="/img/capital-valley/gallery-1-(1760x2500).png"
+                    src="/img/capital-valley/gallery-1-(1760x2500).webp"
                     alt="image"
                   />
                 </a>
@@ -67,7 +67,7 @@ const Gallery = () => {
                   <Link href="/gallery">
                     <a>
                       <img
-                        src="/img/capital-valley/gallery-2-(600 x 446).png"
+                        src="/img/capital-valley/gallery-2-(600 x 446).webp"
                         alt="image"
                       />
                     </a>

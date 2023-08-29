@@ -1,5 +1,5 @@
 import React from "react";
-import works1SliderData from "../../data/bahria-town-peshawar/payment-plan.json";
+import works1SliderData from "../../data/citi-housing-peshawar/payment-plan.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Split from "../../components/Split";
 // import Swiper core and required modules

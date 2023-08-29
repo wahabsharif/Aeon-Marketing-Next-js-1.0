@@ -22,7 +22,7 @@ const Gallery = () => {
               <Link href="/gallery">
                 <a>
                   <img
-                    src="/img/park-view-city/Gallery-1-(1920x2715).png"
+                    src="/img/park-view-city/Gallery-1-(1920x2715).webp"
                     alt="image"
                   />
                 </a>
@@ -37,7 +37,7 @@ const Gallery = () => {
                   <Link href="/gallery">
                     <a>
                       <img
-                        src="/img/park-view-city/Gallery-1-(600x446).png"
+                        src="/img/park-view-city/Gallery-1-(600x446).webp"
                         alt="image"
                       />
                     </a>
@@ -52,7 +52,7 @@ const Gallery = () => {
               <Link href="/gallery">
                 <a>
                   <img
-                    src="/img/park-view-city/Gallery-1-(1759x2500).png"
+                    src="/img/park-view-city/Gallery-1-(1759x2500).webp"
                     alt="image"
                   />
                 </a>
@@ -67,7 +67,7 @@ const Gallery = () => {
                   <Link href="/gallery">
                     <a>
                       <img
-                        src="/img/park-view-city/Gallery-2-(600x446).png"
+                        src="/img/park-view-city/Gallery-2-(600x446).webp"
                         alt="image"
                       />
                     </a>
@@ -84,7 +84,7 @@ const Gallery = () => {
                   <Link href="/gallery">
                     <a>
                       <img
-                        src="/img/park-view-city/Gallery-1-(600x848).png"
+                        src="/img/park-view-city/Gallery-1-(600x848).webp"
                         alt="image"
                       />
                     </a>
@@ -99,7 +99,7 @@ const Gallery = () => {
               <Link href="/gallery">
                 <a>
                   <img
-                    src="/img/park-view-city/Gallery-2-(600x848).png"
+                    src="/img/park-view-city/Gallery-2-(600x848).webp"
                     alt="image"
                   />
                 </a>
