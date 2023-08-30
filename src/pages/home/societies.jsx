@@ -28,12 +28,12 @@ const Societies = () => {
           </Split>
         </div>
         <div className="gallery full-width">
-          <div className="col-md-6 items ">
+          <div className="col-lg-6 items ">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link href="/bahria-town-peshawar">
                 <a>
                   <img
-                    src="/img/bahria-town-peshawar/baria-project-(1920 x 2715).webp"
+                    src="/img/projects-and-socities/bahria-town-peshawar-project-img.webp"
                     alt="Bahria Town Peshawar"
                   />
                 </a>
@@ -44,32 +44,28 @@ const Societies = () => {
             </div>
           </div>
 
-          <div className="col-md-6 items">
-            <div className="row">
-              <div className="col-lg-10">
-                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/citi-housing-peshawar">
-                    <a>
-                      <img
-                        src="/img/citi-housing-peshawar/citii-housing-project-(600x446).webp"
-                        alt="image"
-                      />
-                    </a>
-                  </Link>
-                  <div className="cont">
-                    <h6>Citi Housing Peshawar</h6>
-                  </div>
-                </div>
+          <div className="col-lg-6 items">
+            <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+              <Link href="/citi-housing-peshawar">
+                <a>
+                  <img
+                    src="/img/projects-and-socities/citi-housing-peshawar-project-img.webp"
+                    alt="image"
+                  />
+                </a>
+              </Link>
+              <div className="cont">
+                <h6>Citi Housing Peshawar</h6>
               </div>
             </div>
           </div>
 
-          <div className="col-md-6 items">
+          <div className="col-lg-6 items">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link href="/capital-valley">
                 <a>
                   <img
-                    src="/img/capital-valley/capital-valley-project-(1759x2500).webp"
+                    src="/img/projects-and-socities/capital-valley-project-img.webp"
                     alt="image"
                   />
                 </a>
@@ -80,52 +76,44 @@ const Societies = () => {
             </div>
           </div>
 
-          <div className="col-md-6 items">
-            <div className="row">
-              <div className="col-lg-10 offset-lg-2">
-                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/park-view-city">
-                    <a>
-                      <img
-                        src="/img/park-view-city/park-view-city-project-1-(600x446).webp"
-                        alt="park view city"
-                      />
-                    </a>
-                  </Link>
-                  <div className="cont">
-                    <h6>Park View City</h6>
-                  </div>
-                </div>
+          <div className="col-lg-6 items">
+            <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+              <Link href="/park-view-city">
+                <a>
+                  <img
+                    src="/img/projects-and-socities/parkview-city-project-img.webp"
+                    alt="park view city"
+                  />
+                </a>
+              </Link>
+              <div className="cont">
+                <h6>Park View City</h6>
               </div>
             </div>
           </div>
 
-          <div className="col-md-6 items">
-            <div className="row">
-              <div className="col-lg-11 offset-lg-1">
-                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/taj-residencia">
-                    <a>
-                      <img
-                        src="/img/taj-residencia/taj-residencia-project-(600x848).webp"
-                        alt="image"
-                      />
-                    </a>
-                  </Link>
-                  <div className="cont">
-                    <h6>Taj Residencia</h6>
-                  </div>
-                </div>
+          <div className="col-lg-6 items">
+            <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+              <Link href="/taj-residencia">
+                <a>
+                  <img
+                    src="/img/projects-and-socities/taj-residencia-project-img.webp"
+                    alt="image"
+                  />
+                </a>
+              </Link>
+              <div className="cont">
+                <h6>Taj Residencia</h6>
               </div>
             </div>
           </div>
 
-          <div className="col-md-6 items">
+          <div className="col-lg-6 items">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link href="/rudn-enclave">
                 <a>
                   <img
-                    src="/img/rudn-enclave/rudn-enclave-project-(600x446).webp"
+                    src="/img/projects-and-socities/rudn-enclave-project-img.webp"
                     alt="rudn enclave"
                   />
                 </a>
@@ -136,32 +124,28 @@ const Societies = () => {
             </div>
           </div>
 
-          <div className="col-md-6 items">
-            <div className="row">
-              <div className="col-lg-10">
-                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/kingdom-valley">
-                    <a>
-                      <img
-                        src="/img/kingdom-valley/kingdom-valley-project-(600x848).webp"
-                        alt="image"
-                      />
-                    </a>
-                  </Link>
-                  <div className="cont">
-                    <h6>Kingdom Valley</h6>
-                  </div>
-                </div>
+          <div className="col-lg-6 items">
+            <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+              <Link href="/kingdom-valley">
+                <a>
+                  <img
+                    src="/img/projects-and-socities/kingdom-valley-project-img.webp"
+                    alt="image"
+                  />
+                </a>
+              </Link>
+              <div className="cont">
+                <h6>Kingdom Valley</h6>
               </div>
             </div>
           </div>
 
-          <div className="col-md-6 items">
+          <div className="col-lg-6 items">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link href="/nmc-gujar-khan">
                 <a>
                   <img
-                    src="/img/nmc-gujar-khan/new-metro-city-project-(600x446).webp"
+                    src="/img/projects-and-socities/new-metro-city-gujar-khan-project-img.webp"
                     alt="New Metro City Gujar Khan"
                   />
                 </a>
