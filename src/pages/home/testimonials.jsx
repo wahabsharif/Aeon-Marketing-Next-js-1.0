@@ -79,41 +79,25 @@ class Testimonials extends React.Component {
                 }}>
                 <div className="item">
                   <p>
-                    Working with Avo digital agency to support our organic and
-                    paid social media activity has extended the marketing
-                    activities we are able to achieve platform has made
-                    collaboration easy.
+                    &quot;AEON Marketing&apos;s exceptional professionalism,
+                    personalized strategy, and flawless communication led to a
+                    quick, lucrative sale. Highly recommended for real estate
+                    needs.&quot;
                   </p>
                   <div className="info">
                     <div className="cont">
                       <div className="author">
                         {this.props.subBgLftstl ? (
-                          <>
-                            <div className="lxleft">
-                              <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
-                              </div>
-                            </div>
-                            <div className="fxright">
-                              <h6 className="author-name custom-font">
-                                Alex Regelman
-                              </h6>
-                              <span className="author-details">
-                                Co-founder, Colabrio
-                              </span>
-                            </div>
-                          </>
+                          <></>
                         ) : (
                           <>
                             <div className="img">
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              Alex Regelman
+                              Sarah Tanveer
                             </h6>
-                            <span className="author-details">
-                              Co-founder, Colabrio
-                            </span>
+                            <span className="author-details">Freelancer</span>
                           </>
                         )}
                       </div>
@@ -122,41 +106,25 @@ class Testimonials extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                    Avo started out managing our SEO efforts, but their
-                    scientific approach to digital marketing and the results
-                    they have achieved made it an easy decision for us to
-                    handover the management.
+                    &quot;AEON Marketing&apos;s agents exceeded my expectations,
+                    understanding my needs, curating ideal options, providing
+                    valuable insights, and ensuring a seamless, gratifying
+                    home-buying journey.&quot;
                   </p>
                   <div className="info">
                     <div className="cont">
                       <div className="author">
                         {this.props.subBgLftstl ? (
-                          <>
-                            <div className="lxleft">
-                              <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
-                              </div>
-                            </div>
-                            <div className="fxright">
-                              <h6 className="author-name custom-font">
-                                Alex Regelman
-                              </h6>
-                              <span className="author-details">
-                                Co-founder, Colabrio
-                              </span>
-                            </div>
-                          </>
+                          <></>
                         ) : (
                           <>
                             <div className="img">
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              Alex Regelman
+                              Muhammad Tayyab
                             </h6>
-                            <span className="author-details">
-                              Co-founder, Colabrio
-                            </span>
+                            <span className="author-details">Stock Broker</span>
                           </>
                         )}
                       </div>
@@ -165,40 +133,26 @@ class Testimonials extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                    I would highly recommend Avo Digital. I worked with the team
-                    on an animation for our U+2018 Click &amp; Collect U+2019
-                    service. This team is different from any other agency I have
-                    worked with in the past.
+                    &quot;AEON Marketing stands out with its commitment,
+                    innovation, and market insights. Their proactive approach
+                    creates successful opportunities for investors and
+                    homebuyers.&quot;
                   </p>
                   <div className="info">
                     <div className="cont">
                       <div className="author">
                         {this.props.subBgLftstl ? (
-                          <>
-                            <div className="lxleft">
-                              <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
-                              </div>
-                            </div>
-                            <div className="fxright">
-                              <h6 className="author-name custom-font">
-                                Alex Regelman
-                              </h6>
-                              <span className="author-details">
-                                Co-founder, Colabrio
-                              </span>
-                            </div>
-                          </>
+                          <></>
                         ) : (
                           <>
                             <div className="img">
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              Alex Regelman
+                              Abdul Wasay
                             </h6>
                             <span className="author-details">
-                              Co-founder, Colabrio
+                              Brand Ambassador - BT
                             </span>
                           </>
                         )}
