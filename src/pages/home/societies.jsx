@@ -81,7 +81,7 @@ const Societies = () => {
               <Link href="/park-view-city">
                 <a>
                   <img
-                    src="/img/projects-and-socities/parkview-city-project-img.webp"
+                    src="/img/projects-and-socities/parkview-city-project-img.jpg"
                     alt="park view city"
                   />
                 </a>
