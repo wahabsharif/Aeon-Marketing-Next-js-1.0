@@ -4,7 +4,6 @@ import Script from "next/script";
 import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/Scroll-to-top";
 import LoadingScreen from "../components/Loading-Screen";
-import { FloatingWhatsApp } from "react-floating-whatsapp";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -17,28 +16,6 @@ function MyApp({ Component, pageProps }) {
       <Cursor />
       <LoadingScreen />
       <ScrollToTop />
-      <FloatingWhatsApp
-        accountName="Aeon Marketing"
-        phoneNumber="923235154682"
-        notificationSound="true"
-        darkMode="true"
-        allowEsc="true"
-        notificationLoop={1}
-        notificationDelay={20}
-        avatar="/img/aeon-marketing-icon.webp"
-        statusMessage="Online"
-        buttonStyle={{
-          bottom: "80px",
-          right: "10px",
-          zIndex: "1000",
-          cursor: "pointer",
-        }}
-        chatboxStyle={{
-          bottom: "80px",
-          right: "10px",
-          zIndex: "1000",
-        }}
-      />
       <Component {...pageProps} />
 
       <Script
