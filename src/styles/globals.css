@@ -105,3 +105,36 @@ section.next-prog {
 section.team.section-padding {
   overflow: hidden;
 }
+
+
+/* Floating WhatsApp */
+.floating-whatsapp-button {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9999;
+  /* Ensure the button appears above other content */
+  transition: transform 0.3s, background-color 0.3s;
+  /* Add transitions for zoom and background color */
+}
+
+.floating-whatsapp-button:hover {
+  background-color: darkgreen;
+  /* Change the background color on hover */
+  transform: scale(1.2);
+  /* Zoom in on hover */
+}
+
+.whatsapp-icon {
+  font-size: 30px;
+}

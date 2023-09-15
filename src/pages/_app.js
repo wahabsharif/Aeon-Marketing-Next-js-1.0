@@ -5,6 +5,7 @@ import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/Scroll-to-top";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/globals.css";
+import FloatingWA from "../components/FloatingWA";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       <Cursor />
       <LoadingScreen />
       <ScrollToTop />
+      <FloatingWA />
       <Component {...pageProps} />
 
       <Script
