@@ -28,12 +28,14 @@ const CeoMessage = ({ skillsTheme }) => {
             <Split>
               <h1
                 className="co-tit custom-font wow words chars splitting"
-                data-splitting>
+                data-splitting
+              >
                 Chairman Message
               </h1>
               <h4
                 className="co-tit custom-font wow words chars splitting"
-                data-splitting>
+                data-splitting
+              >
                 Faheem Awan
                 <br />
                 CEO, Aeon Marketing Pvt. Ltd.
@@ -43,7 +45,7 @@ const CeoMessage = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/faheem-1.webp" alt="" />
+                <img src="/img/faheem.jpg" alt="" />
               </div>
             </div>
           </div>
