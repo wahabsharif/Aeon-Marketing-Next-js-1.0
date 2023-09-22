@@ -76,21 +76,13 @@ const CeoMessage = ({ skillsTheme }) => {
                 and communities.
               </p>
               <p className="wow fadeInUp" data-wow-delay=".4s">
-                As we steer towards the future, we remain dedicated to upholding
-                the highest standards of integrity, transparency, and
-                customer-centricity. Our clients place their trust in us, and
-                it&apos;s a responsibility we hold with utmost reverence. By
-                leveraging our insights, experience, and cutting-edge
-                strategies, we aim to continue exceeding expectations and
-                setting new industry benchmarks.
-              </p>
-              <p className="wow fadeInUp" data-wow-delay=".4s">
-                I invite you to embark on this journey of innovation and growth
-                with us. Whether you&apos;re a potential client, a partner, or a
-                member of our team, your aspirations are integral to our vision.
-                Let&apos;s collectively shape a tomorrow that&apos;s defined by
-                progress, excellence, and transformative real estate
-                experiences. Thank you for choosing Aeon Marketing Pvt. Ltd.
+                At Aeon Marketing Pvt. Ltd., we are committed to maintaining
+                integrity, transparency, and customer-centricity. We value the
+                trust our clients place in us and strive to surpass their
+                expectations. Join us in our journey of innovation and growth,
+                as we shape a future marked by progress, excellence, and
+                transformative real estate experiences. Thank you for choosing
+                Aeon Marketing Pvt. Ltd.
               </p>
             </div>
           </div>
