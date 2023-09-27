@@ -14,12 +14,14 @@ class OurTeam extends React.Component {
       <div className="navs mt-30 wow fadeInUp" data-wow-delay=".3s">
         <span
           className="prev cursor-pointer"
-          onClick={() => this.slider.slickPrev()}>
+          onClick={() => this.slider.slickPrev()}
+        >
           <i className="fas fa-chevron-left"></i>
         </span>
         <span
           className="next cursor-pointer"
-          onClick={() => this.slider.slickNext()}>
+          onClick={() => this.slider.slickNext()}
+        >
           <i className="fas fa-chevron-right"></i>
         </span>
       </div>
@@ -66,16 +68,18 @@ class OurTeam extends React.Component {
                     {
                       breakpoint: 480,
                       settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                       },
                     },
                   ],
-                }}>
+                }}
+              >
                 {team1Data.map((item) => (
                   <div
                     className="item wow fadeInUp"
                     data-wow-delay=".3s"
-                    key={item.id}>
+                    key={item.id}
+                  >
                     <div className="img wow imago">
                       <img src={item.image} alt="" />
                     </div>
