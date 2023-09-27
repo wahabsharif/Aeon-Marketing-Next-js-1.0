@@ -12,6 +12,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta httpEquiv="Cache-Control" content="max-age=3600, public" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
