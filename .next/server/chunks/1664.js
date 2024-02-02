@@ -442,15 +442,7 @@ const normalizePathTrailingSlash = (path)=>{
         return path;
     }
     const { pathname , query , hash  } = (0, _parsePath).parsePath(path);
-    if (true) {
-        if (/\.[^/]+\/?$/.test(pathname)) {
-            return `${(0, _removeTrailingSlash).removeTrailingSlash(pathname)}${query}${hash}`;
-        } else if (pathname.endsWith("/")) {
-            return `${pathname}${query}${hash}`;
-        } else {
-            return `${pathname}/${query}${hash}`;
-        }
-    }
+    if (false) {}
     return `${(0, _removeTrailingSlash).removeTrailingSlash(pathname)}${query}${hash}`;
 };
 exports.normalizePathTrailingSlash = normalizePathTrailingSlash;
@@ -1161,7 +1153,7 @@ function getMiddlewareData(source, response, options) {
         i18n: {
             locales: options.router.locales
         },
-        trailingSlash: Boolean(true)
+        trailingSlash: Boolean(false)
     };
     const rewriteHeader = response.headers.get("x-nextjs-rewrite");
     let rewriteTarget = rewriteHeader || response.headers.get("x-nextjs-matched-path");
