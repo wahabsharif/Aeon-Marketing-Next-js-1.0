@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "/img/muhammad-usman.webp",
+    "name": "Muhammad Usman",
+    "title": "Dirctor Sales"
+  },
+  {
+    "id": 2,
+    "image": "/img/malik-noman-ahmad.webp",
+    "name": "Malik Noman Ahmed",
+    "title": "Marketing Manger"
+  },
+  {
+    "id": 3,
+    "image": "/img/talha-chishti.webp",
+    "name": "Talha chishti",
+    "title": "Manger Opreation"
+  },
+  {
+    "id": 4,
+    "image": "/img/muhammad-usman.webp",
+    "name": "Muhammad Usman",
+    "title": "Dirctor Sales"
+  },
+  {
+    "id": 5,
+    "image": "/img/malik-noman-ahmad.webp",
+    "name": "Malik Noman Ahmed",
+    "title": "Marketing Manger"
+  },
+  {
+    "id": 6,
+    "image": "/img/talha-chishti.webp",
+    "name": "Talha chishti",
+    "title": "Manger Opreation"
+  }
+]
