@@ -1,6 +1,9 @@
 const path = require("path");
 
-module.exports = {
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
   reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, "css")],
@@ -12,13 +15,7 @@ module.exports = {
   eslint: {
     ignoreDuringBuilds: false,
   },
-};
-
-/**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
-  output: "standalone",
+  output: "export",
 };
 
 module.exports = nextConfig;
