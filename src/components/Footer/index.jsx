@@ -16,7 +16,8 @@ const Footer = ({ noSubBG }) => {
   const sendEmail = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
     <footer
-      className={`footer-half ${noSubBG ? "" : "sub-bg"} section-padding pb-0`}>
+      className={`footer-half ${noSubBG ? "" : "sub-bg"} section-padding pb-0`}
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
@@ -28,19 +29,19 @@ const Footer = ({ noSubBG }) => {
               </div>
               <div className="con-info custom-font">
                 <ul>
-                  <li>
+                  {/* <li>
                     <span>Email : </span>{" "}
                     <a href="mailto:islamabadsmartproperties@gmail.com">
                       islamabadsmartproperties@gmail.com
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <span>Address : </span>Aeon Marketing, Ground floor office,
                     Street 6, H-13, Islamabad.
                   </li>
                   <li>
                     <span>Phone : </span>
-                    <a href="tel:+923465336367"> (+92) 346 533 6367</a>
+                    <a href="tel:+923145154682"> (+92) 314 515 4682</a>
                   </li>
                 </ul>
               </div>
@@ -52,12 +53,14 @@ const Footer = ({ noSubBG }) => {
                   </a>
                   <a
                     href="https://www.instagram.com/aeonmarketingoffical/"
-                    className="icon">
+                    className="icon"
+                  >
                     <i className="fab fa-instagram"></i>
                   </a>
                   <a
                     href="https://www.youtube.com/@aeonmarketing2913"
-                    className="icon">
+                    className="icon"
+                  >
                     <i className="fab fa-youtube"></i>
                   </a>
                 </div>
@@ -77,7 +80,8 @@ const Footer = ({ noSubBG }) => {
                   alert(JSON.stringify(values, null, 2));
                   // Reset the values
                   values.subscribe = "";
-                }}>
+                }}
+              >
                 {({ errors, touched }) => (
                   <Form>
                     <div className="form-group custom-font">
@@ -118,7 +122,8 @@ const Footer = ({ noSubBG }) => {
             <a
               href="http://beacontechh.com/"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               BeaconTechh
             </a>
             .

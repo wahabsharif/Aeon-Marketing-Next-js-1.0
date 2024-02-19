@@ -8,7 +8,7 @@ const FloatingWA = () => {
     const message = "MESSAGE";
 
     // Create a WhatsApp URL with the phone number and message
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=${923235154682}&text=${encodeURIComponent(
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=${923145154682}&text=${encodeURIComponent(
       message
     )}`;
 

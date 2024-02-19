@@ -8,7 +8,7 @@ import WhoWeAre from "./who-we-are";
 import Features from "./features";
 import Societies from "./societies";
 import Testimonials from "./testimonials";
-import OurTeam from "./our-team";
+// import OurTeam from "./our-team";
 import GoogleMap from "../../components/Google-Map";
 import HomeHero from "./hero";
 
@@ -18,7 +18,7 @@ const Home = () => {
       <Navbar />
       <HomeHero />
       <CeoMessage />
-      <OurTeam />
+      {/* <OurTeam /> */}
       <WhoWeAre />
       <Features />
       <Societies />
