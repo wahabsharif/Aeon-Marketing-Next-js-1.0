@@ -1,34 +1,527 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/bZdhz47NeJt1qvKkSE-L7/_buildManifest.js",
+    "static/bZdhz47NeJt1qvKkSE-L7/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/7842-c755e67683e65501.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/chunks/1092-92948fa9a66c70cf.js",
+      "static/css/7d201fb08f0dd97e.css",
+      "static/chunks/pages/index-9b2ccf0a16686443.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/css/0d8927fd5dca8860.css",
+      "static/chunks/pages/_app-a34ff3018681ef26.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/_error-7891c9bfcd7b3e53.js"
+    ],
+    "/bahria-town-peshawar": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/chunks/6078-de781d53fd054970.js",
+      "static/css/5a35913b93a5c216.css",
+      "static/chunks/pages/bahria-town-peshawar-9dfc21dacf11693e.js"
+    ],
+    "/bahria-town-peshawar/about": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/bahria-town-peshawar/about-2efaa49ac5613090.js"
+    ],
+    "/bahria-town-peshawar/detail-section": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/css/d0320de32467736e.css",
+      "static/chunks/pages/bahria-town-peshawar/detail-section-71abc9538b65821c.js"
+    ],
+    "/bahria-town-peshawar/gallery": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/6078-de781d53fd054970.js",
+      "static/chunks/pages/bahria-town-peshawar/gallery-03e553d1e5a463df.js"
+    ],
+    "/bahria-town-peshawar/hero": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/bahria-town-peshawar/hero-cdedffe16619662b.js"
+    ],
+    "/bahria-town-peshawar/payment-plan": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/bahria-town-peshawar/payment-plan-9256365461afabc1.js"
+    ],
+    "/capital-valley": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/css/5a35913b93a5c216.css",
+      "static/chunks/pages/capital-valley-d73c5a4b42ac99bb.js"
+    ],
+    "/capital-valley/about": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/capital-valley/about-90d0d3537ef49481.js"
+    ],
+    "/capital-valley/detail-section": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/css/d0320de32467736e.css",
+      "static/chunks/pages/capital-valley/detail-section-b7afd13053e609de.js"
+    ],
+    "/capital-valley/gallery": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/pages/capital-valley/gallery-53023c4d42cda6f8.js"
+    ],
+    "/capital-valley/hero": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/capital-valley/hero-1c716dd80a936eff.js"
+    ],
+    "/capital-valley/payment-plan": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/capital-valley/payment-plan-921e178cb206a410.js"
+    ],
+    "/citi-housing-peshawar": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/css/5a35913b93a5c216.css",
+      "static/chunks/pages/citi-housing-peshawar-be8a5d2211a641ce.js"
+    ],
+    "/citi-housing-peshawar/about": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/citi-housing-peshawar/about-841def3cbf0425eb.js"
+    ],
+    "/citi-housing-peshawar/detail-section": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/css/d0320de32467736e.css",
+      "static/chunks/pages/citi-housing-peshawar/detail-section-976bf104906bce1e.js"
+    ],
+    "/citi-housing-peshawar/gallery": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/pages/citi-housing-peshawar/gallery-ffc7ccf3fa2a48d2.js"
+    ],
+    "/citi-housing-peshawar/hero": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/citi-housing-peshawar/hero-b8d8eb15101003a5.js"
+    ],
+    "/citi-housing-peshawar/payment-plan": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/citi-housing-peshawar/payment-plan-5eadc4f599950c6a.js"
+    ],
+    "/contact": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/7140-d518258b0f6e9429.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/chunks/pages/contact-f2f58655d310b74e.js"
+    ],
+    "/gallery": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/chunks/pages/gallery-1c082f0c99651b39.js"
+    ],
+    "/gallery/hero": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/gallery/hero-0dbf45e64c4bca4a.js"
+    ],
+    "/gallery/images": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/gallery/images-ee1979d32a6f736d.js"
+    ],
+    "/gallery/intro": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/gallery/intro-0af03610c55da342.js"
+    ],
+    "/home": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/7842-c755e67683e65501.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/chunks/1092-92948fa9a66c70cf.js",
+      "static/css/7d201fb08f0dd97e.css",
+      "static/chunks/pages/home-6df8bfc2750b5f47.js"
+    ],
+    "/home/ceo-message": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/css/d0320de32467736e.css",
+      "static/chunks/pages/home/ceo-message-47ade3d87b7eff30.js"
+    ],
+    "/home/features": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/home/features-e59e361f8903f818.js"
+    ],
+    "/home/hero": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/home/hero-84c24a58834c9574.js"
+    ],
+    "/home/our-team": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/7842-c755e67683e65501.js",
+      "static/css/5674832e1468d24d.css",
+      "static/chunks/pages/home/our-team-6cb35e4c2392afbf.js"
+    ],
+    "/home/societies": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/pages/home/societies-c1e184e21063441c.js"
+    ],
+    "/home/testimonials": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/7842-c755e67683e65501.js",
+      "static/css/5674832e1468d24d.css",
+      "static/chunks/pages/home/testimonials-6416a54ecb7cb3e2.js"
+    ],
+    "/home/who-we-are": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/home/who-we-are-1412e271edeeeacf.js"
+    ],
+    "/kingdom-valley": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/css/5a35913b93a5c216.css",
+      "static/chunks/pages/kingdom-valley-42653a11f272d2a7.js"
+    ],
+    "/kingdom-valley/about": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/kingdom-valley/about-25d0e6c1104e4da7.js"
+    ],
+    "/kingdom-valley/detail-section": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/css/d0320de32467736e.css",
+      "static/chunks/pages/kingdom-valley/detail-section-34d40feb66e8b1d5.js"
+    ],
+    "/kingdom-valley/gallery": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/pages/kingdom-valley/gallery-7ab5afa90091a5f5.js"
+    ],
+    "/kingdom-valley/hero": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/kingdom-valley/hero-1ba13cb942aa7e2e.js"
+    ],
+    "/kingdom-valley/payment-plan": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/kingdom-valley/payment-plan-64a3b61b8b156bfe.js"
+    ],
+    "/nmc-gujar-khan": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/css/5a35913b93a5c216.css",
+      "static/chunks/pages/nmc-gujar-khan-81e40ee216b06344.js"
+    ],
+    "/nmc-gujar-khan/about": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/nmc-gujar-khan/about-6cf12424e2a2e6ac.js"
+    ],
+    "/nmc-gujar-khan/detail-section": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/css/d0320de32467736e.css",
+      "static/chunks/pages/nmc-gujar-khan/detail-section-60abe6bcd5a3685e.js"
+    ],
+    "/nmc-gujar-khan/gallery": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/pages/nmc-gujar-khan/gallery-118419f3f9dd4995.js"
+    ],
+    "/nmc-gujar-khan/hero": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/nmc-gujar-khan/hero-b2aaef9a1b93cee4.js"
+    ],
+    "/nmc-gujar-khan/payment-plan": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/nmc-gujar-khan/payment-plan-794febe3a5600f98.js"
+    ],
+    "/park-view-city": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/css/5a35913b93a5c216.css",
+      "static/chunks/pages/park-view-city-62f20af4bd58555f.js"
+    ],
+    "/park-view-city/about": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/park-view-city/about-d811f9031497c1ee.js"
+    ],
+    "/park-view-city/detail-section": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/css/d0320de32467736e.css",
+      "static/chunks/pages/park-view-city/detail-section-e6d0043572c0df1e.js"
+    ],
+    "/park-view-city/gallery": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/pages/park-view-city/gallery-510067efbd8a87e1.js"
+    ],
+    "/park-view-city/hero": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/park-view-city/hero-5b76af88a72a9945.js"
+    ],
+    "/park-view-city/payment-plan": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/park-view-city/payment-plan-ad20e93c81173b3f.js"
+    ],
+    "/rudn-enclave": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/css/5a35913b93a5c216.css",
+      "static/chunks/pages/rudn-enclave-1f936d8cf5e97bdf.js"
+    ],
+    "/rudn-enclave/about": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/rudn-enclave/about-17242d8027931478.js"
+    ],
+    "/rudn-enclave/detail-section": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/css/d0320de32467736e.css",
+      "static/chunks/pages/rudn-enclave/detail-section-d56ae3d288f0ec2f.js"
+    ],
+    "/rudn-enclave/gallery": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/pages/rudn-enclave/gallery-04b404c6cbe2ea9a.js"
+    ],
+    "/rudn-enclave/hero": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/rudn-enclave/hero-edbc2735b927f23e.js"
+    ],
+    "/rudn-enclave/payment-plan": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/rudn-enclave/payment-plan-8b579f8f2e957da2.js"
+    ],
+    "/taj-residencia": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/chunks/807-b215c2ef89b03b0a.js",
+      "static/chunks/5075-910dee2cb4d90c70.js",
+      "static/css/5a35913b93a5c216.css",
+      "static/chunks/pages/taj-residencia-5bbcf9d1362625ae.js"
+    ],
+    "/taj-residencia/about": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/pages/taj-residencia/about-1d79a448f641926f.js"
+    ],
+    "/taj-residencia/detail-section": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/css/d0320de32467736e.css",
+      "static/chunks/pages/taj-residencia/detail-section-ff4e2377d7c71ff3.js"
+    ],
+    "/taj-residencia/gallery": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/pages/taj-residencia/gallery-b7267529b4e953c9.js"
+    ],
+    "/taj-residencia/hero": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/taj-residencia/hero-4003e29ca0325c80.js"
+    ],
+    "/taj-residencia/payment-plan": [
+      "static/chunks/webpack-e0b002999194ca99.js",
+      "static/chunks/framework-a070cbfff3c750c5.js",
+      "static/chunks/main-1eab56c47f4a9c9c.js",
+      "static/chunks/1664-2bd7c0cf8e82d2c6.js",
+      "static/chunks/45-377680bb6eaf9856.js",
+      "static/css/eb73c9c96e4e3ca2.css",
+      "static/chunks/pages/taj-residencia/payment-plan-57609c67a4a0d747.js"
     ]
   },
   "ampFirstPages": []
