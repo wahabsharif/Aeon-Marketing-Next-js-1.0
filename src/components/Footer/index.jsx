@@ -36,8 +36,8 @@ const Footer = ({ noSubBG }) => {
                     </a>
                   </li> */}
                   <li>
-                    <span>Address : </span>Aeon Marketing, Ground floor office,
-                    Street 6, H-13, Islamabad.
+                    <span>Address : </span>Aeon Marketing, Islamabad Marina,
+                    Blue Area, Islamabad.
                   </li>
                   <li>
                     <span>Phone : </span>
