@@ -29,12 +29,12 @@ const Footer = ({ noSubBG }) => {
               </div>
               <div className="con-info custom-font">
                 <ul>
-                  {/* <li>
+                  <li>
                     <span>Email : </span>{" "}
                     <a href="mailto:islamabadsmartproperties@gmail.com">
-                      islamabadsmartproperties@gmail.com
+                      info@aeonmarketing.com.pk
                     </a>
-                  </li> */}
+                  </li>
                   <li>
                     <span>Address : </span>Aeon Marketing, 2nd floor, Moscow
                     Plaza, Jinnah Avenue, Blue Area, Islamabad
