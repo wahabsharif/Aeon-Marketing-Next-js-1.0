@@ -8,42 +8,32 @@ const Images = () => {
       <div className="container-fluid">
         <div className="justified-gallery">
           <div className="row">
-            <div className="col-md-3 pr-0">
+            <div className="col-md-4 pr-0">
               <a href="">
                 <img alt="" src="/img/gallery/gallery-1.webp" />
               </a>
             </div>
-            <div className="col-md-3 pr-0">
-              <a href="">
-                <img alt="" src="/img/gallery/gallery-2.webp" />
-              </a>
-            </div>
-            <div className="col-md-3 pr-0">
-              <a href="">
-                <img alt="" src="/img/gallery/gallery-3.webp" />
-              </a>
-            </div>
-            <div className="col-md-3 pr-0">
+            <div className="col-md-4 pr-0">
               <a href="">
                 <img alt="" src="/img/gallery/hero-img.webp" />
               </a>
             </div>
-            <div className="col-md-3 pr-0">
+            <div className="col-md-4 pr-0">
               <a href="">
                 <img alt="" src="/img/gallery/gallery-4.webp" />
               </a>
             </div>
-            <div className="col-md-3 pr-0">
+            <div className="col-md-4 pr-0">
               <a href="">
                 <img alt="" src="/img/gallery/gallery-6.webp" />
               </a>
             </div>
-            <div className="col-md-3 pr-0">
+            <div className="col-md-4 pr-0">
               <a href="">
                 <img alt="" src="/img/gallery/gallery-7.webp" />
               </a>
             </div>
-            <div className="col-md-3 pr-0">
+            <div className="col-md-4 pr-0">
               <a href="">
                 <img
                   alt=""
@@ -51,13 +41,9 @@ const Images = () => {
                 />
               </a>
             </div>
-            <div className="col-12">
+            <div className="col-md-12 pr-0">
               <a href="">
-                <img
-                  alt=""
-                  src="/img/award-gallery-1.webp"
-                  className="big-img"
-                />
+                <img alt="" src="/img/gallery/gallery-3.webp" />
               </a>
             </div>
           </div>

@@ -9,7 +9,7 @@ import Features from "./features";
 import Societies from "./societies";
 import Testimonials from "./testimonials";
 // import OurTeam from "./our-team";
-import GoogleMap from "../../components/Google-Map";
+// import GoogleMap from "../../components/Google-Map";
 import HomeHero from "./hero";
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
       <Societies />
       <Testimonials />
       <CallToAction />
-      <GoogleMap />
+      {/* <GoogleMap /> */}
       <Footer />
     </DarkTheme>
   );
