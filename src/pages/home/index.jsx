@@ -11,6 +11,7 @@ import Testimonials from "./testimonials";
 // import OurTeam from "./our-team";
 // import GoogleMap from "../../components/Google-Map";
 import HomeHero from "./hero";
+import GoogleForm from "../../components/GoogleForm";
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
       <Societies />
       <Testimonials />
       <CallToAction />
-      {/* <GoogleMap /> */}
+      <GoogleForm />
       <Footer />
     </DarkTheme>
   );
