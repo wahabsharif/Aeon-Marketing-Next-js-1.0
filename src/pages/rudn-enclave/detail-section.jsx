@@ -34,7 +34,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Developer&apos;s Team
                 </h3>
               </Split>
@@ -52,7 +53,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/rudn-enclave/developer-team.webp" alt="" />
+                <img
+                  src="/img/rudn-enclave/developer-team.webp"
+                  alt="rudn-enclave-images"
+                />
               </div>
             </div>
           </div>
@@ -61,7 +65,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/rudn-enclave/Location.webp" alt="" />
+                <img
+                  src="/img/rudn-enclave/Location.webp"
+                  alt="rudn-enclave-images"
+                />
               </div>
             </div>
           </div>
@@ -75,7 +82,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Location
                 </h3>
               </Split>
@@ -110,7 +118,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Features
                 </h3>
               </Split>
@@ -136,7 +145,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/rudn-enclave/Features.webp" alt="" />
+                <img
+                  src="/img/rudn-enclave/Features.webp"
+                  alt="rudn-enclave-images"
+                />
               </div>
             </div>
           </div>
@@ -145,7 +157,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/rudn-enclave/master-plan.webp" alt="" />
+                <img
+                  src="/img/rudn-enclave/master-plan.webp"
+                  alt="rudn-enclave-images"
+                />
               </div>
             </div>
           </div>
@@ -159,7 +174,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Master Plan
                 </h3>
               </Split>

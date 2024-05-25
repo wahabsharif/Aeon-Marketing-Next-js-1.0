@@ -34,7 +34,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Location
                 </h3>
               </Split>
@@ -71,7 +72,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   INFRASTRUCTURE
                 </h3>
               </Split>
@@ -104,7 +106,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Features & Amenities
                 </h3>
               </Split>
@@ -124,7 +127,7 @@ const AboutUs2 = ({ skillsTheme }) => {
               <div className="bimg wow imago">
                 <img
                   src="/img/citi-housing-peshawar/citi-housing-amenities.webp"
-                  alt=""
+                  alt="citi-housing-peshawar-images"
                 />
               </div>
             </div>
@@ -141,7 +144,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   INVESTMENT OPPORTUNITIES IN CITI HOUSING PESHAWAR
                 </h3>
               </Split>

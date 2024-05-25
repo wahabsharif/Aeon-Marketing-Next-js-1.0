@@ -34,7 +34,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   DEVELOPER & OWNERS
                 </h3>
               </Split>
@@ -64,7 +65,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/kingdom-valley/Developer-Owner.webp" alt="" />
+                <img
+                  src="/img/kingdom-valley/Developer-Owner.webp"
+                  alt="kingom-valley-image"
+                />
               </div>
             </div>
           </div>
@@ -73,7 +77,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/kingdom-valley/Features.webp" alt="" />
+                <img
+                  src="/img/kingdom-valley/Features.webp"
+                  alt="kingom-valley-image"
+                />
               </div>
             </div>
           </div>
@@ -87,7 +94,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   KINGDOM VALLEY FEATURES
                 </h3>
               </Split>
@@ -119,7 +127,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Master Plan
                 </h3>
               </Split>
@@ -137,7 +146,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/kingdom-valley/Master-Plan.webp" alt="" />
+                <img
+                  src="/img/kingdom-valley/Master-Plan.webp"
+                  alt="kingom-valley-image"
+                />
               </div>
             </div>
           </div>
@@ -153,7 +165,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   DEVELOPMENT STATUS
                 </h3>
               </Split>
@@ -180,7 +193,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/kingdom-valley/location.webp" alt="" />
+                <img
+                  src="/img/kingdom-valley/location.webp"
+                  alt="kingom-valley-image"
+                />
               </div>
             </div>
           </div>
@@ -194,7 +210,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   LOCATION & MAP
                 </h3>
               </Split>

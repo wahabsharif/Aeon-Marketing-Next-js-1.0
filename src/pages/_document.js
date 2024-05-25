@@ -16,13 +16,20 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="Aeon Marketing - A Real Estate Agency"
+            content="Aeon Marketing, aeon, marketing, phone, address, floor, islamabad, email, follow, real-estate, bahria town peshawar, citi housing peshawar, capital valley, park view, city, taj residencia, rudn enclave, kingdom valley, new metro city gujar khan, bahria, town, peshawar, citi, housing, peshawar, capital, valley, park, view, city, taj, residencia, rudn, enclave, kingdom, valley, new, metro, city, gujar, khan, nmc, pvc, cv, tr, re, kv, "
           />
           <meta
             name="description"
-            content="Aeon Marketing - A Real Estate Agency"
+            content="Welcome to Aeon Marketing - Your premier real estate agency. Buy, sell, or invest with our expert team for exceptional property solutions."
           />
           <meta name="author" content="" />
+          <meta name="fragment" content="" />
+          <link rel="canonical" href="https://aeonmarketing.com.pk/" />
+          <link
+            rel="alternate"
+            hrefLang="en"
+            href="https://aeonmarketing.com.pk/"
+          />
           <link
             rel="shortcut icon"
             href="/public/img/aeon-marketing-icon.png"

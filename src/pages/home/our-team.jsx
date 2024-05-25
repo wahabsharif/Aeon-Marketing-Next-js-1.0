@@ -81,7 +81,7 @@ class OurTeam extends React.Component {
                     key={item.id}
                   >
                     <div className="img wow imago">
-                      <img src={item.image} alt="" />
+                      <img src={item.image} alt="aeon-marketing-team" />
                     </div>
                     <div className="info">
                       <h5>{item.name}</h5>

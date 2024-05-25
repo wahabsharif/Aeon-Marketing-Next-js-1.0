@@ -34,7 +34,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Location
                 </h3>
               </Split>
@@ -72,7 +73,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/capital-valley/Developers.webp" alt="" />
+                <img
+                  src="/img/capital-valley/Developers.webp"
+                  alt="capital-valley-images"
+                />
               </div>
             </div>
           </div>
@@ -86,7 +90,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Developers
                 </h3>
               </Split>
@@ -118,7 +123,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Capital Valley Islamabad Executive Block
                 </h3>
               </Split>
@@ -157,7 +163,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/capital-valley/executive-block.webp" alt="" />
+                <img
+                  src="/img/capital-valley/executive-block.webp"
+                  alt="capital-valley-images"
+                />
               </div>
             </div>
           </div>
@@ -166,7 +175,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/capital-valley/general-block.webp" alt="" />
+                <img
+                  src="/img/capital-valley/general-block.webp"
+                  alt="capital-valley-images"
+                />
               </div>
             </div>
           </div>
@@ -180,7 +192,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Capital Valley Islamabad General Block
                 </h3>
               </Split>

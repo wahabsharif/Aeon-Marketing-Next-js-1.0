@@ -6,6 +6,7 @@ import ScrollToTop from "../components/Scroll-to-top";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/globals.css";
 import FloatingWA from "../components/FloatingWA";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
       <ScrollToTop />
       <FloatingWA />
       <Component {...pageProps} />
+      <GoogleTagManager gtmId="AW-16571160044" />
 
       <Script
         strategy="beforeInteractive"

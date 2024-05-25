@@ -20,7 +20,7 @@ const WhoWeAre = () => {
               <img
                 className="thumparallax-down"
                 src="/img/who-we-are.webp"
-                alt=""
+                alt="aeon-marketing-who-we-are"
               />
             </div>
           </div>
@@ -29,7 +29,8 @@ const WhoWeAre = () => {
               <Split>
                 <h4
                   className="wow custom-font words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Who We Are?
                 </h4>
               </Split>

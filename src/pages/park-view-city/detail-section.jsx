@@ -34,7 +34,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Park View City Islamabad Developer
                 </h3>
               </Split>
@@ -53,7 +54,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/park-view-city/Developer.webp" alt="" />
+                <img
+                  src="/img/park-view-city/Developer.webp"
+                  alt="park-view-city-images"
+                />
               </div>
             </div>
           </div>
@@ -62,7 +66,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/park-view-city/proximity.webp" alt="" />
+                <img
+                  src="/img/park-view-city/proximity.webp"
+                  alt="park-view-city-images"
+                />
               </div>
             </div>
           </div>
@@ -76,7 +83,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Park View City in Islamabad Location
                 </h3>
               </Split>
@@ -108,7 +116,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Park View City Islamabad NOC
                 </h3>
               </Split>
@@ -125,7 +134,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/park-view-city/NOC.webp" alt="" />
+                <img
+                  src="/img/park-view-city/NOC.webp"
+                  alt="park-view-city-images"
+                />
               </div>
             </div>
           </div>
@@ -134,7 +146,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/park-view-city/master-plan.webp" alt="" />
+                <img
+                  src="/img/park-view-city/master-plan.webp"
+                  alt="park-view-city-images"
+                />
               </div>
             </div>
           </div>
@@ -148,7 +163,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Park View City Islamabad Master Plan
                 </h3>
               </Split>
@@ -170,7 +186,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Park View City Islamabad Features
                 </h3>
               </Split>
@@ -199,7 +216,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/park-view-city/Features.webp" alt="" />
+                <img
+                  src="/img/park-view-city/Features.webp"
+                  alt="park-view-city-images"
+                />
               </div>
             </div>
           </div>

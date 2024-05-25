@@ -16,12 +16,14 @@ class Testimonials extends React.Component {
       <div className="arrows">
         <div
           onClick={() => this.slider.slickNext()}
-          className="next cursor-pointer">
+          className="next cursor-pointer"
+        >
           <span className="pe-7s-angle-right"></span>
         </div>
         <div
           onClick={() => this.slider.slickPrev()}
-          className="prev cursor-pointer">
+          className="prev cursor-pointer"
+        >
           <span className="pe-7s-angle-left"></span>
         </div>
       </div>
@@ -48,7 +50,8 @@ class Testimonials extends React.Component {
               : "none"
           }`,
         }}
-        data-overlay-dark={`${this.props.overlay ? "9" : "0"}`}>
+        data-overlay-dark={`${this.props.overlay ? "9" : "0"}`}
+      >
         <div className="container position-re">
           <div className="sec-head custom-font text-center">
             <h6 className="wow fadeIn" data-wow-delay=".5s">
@@ -63,7 +66,8 @@ class Testimonials extends React.Component {
           </div>
           <div
             className="row justify-content-center wow fadeInUp"
-            data-wow-delay=".5s">
+            data-wow-delay=".5s"
+          >
             <div className="col-lg-8">
               <Slider
                 className="slic-item"
@@ -76,7 +80,8 @@ class Testimonials extends React.Component {
                   rows: 1,
                   slidesToScroll: 1,
                   slidesToShow: 1,
-                }}>
+                }}
+              >
                 <div className="item">
                   <p>
                     &quot;AEON Marketing&apos;s exceptional professionalism,
@@ -92,7 +97,10 @@ class Testimonials extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img
+                                src="/img/clients/1.jpg"
+                                alt="aeon-marketing-testimonials"
+                              />
                             </div>
                             <h6 className="author-name custom-font">
                               Sarah Tanveer
@@ -119,7 +127,10 @@ class Testimonials extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img
+                                src="/img/clients/1.jpg"
+                                alt="aeon-marketing-testimonials"
+                              />
                             </div>
                             <h6 className="author-name custom-font">
                               Muhammad Tayyab
@@ -146,7 +157,10 @@ class Testimonials extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img
+                                src="/img/clients/1.jpg"
+                                alt="aeon-marketing-testimonials"
+                              />
                             </div>
                             <h6 className="author-name custom-font">
                               Abdul Wasay

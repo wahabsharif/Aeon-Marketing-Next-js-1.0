@@ -34,7 +34,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Location
                 </h3>
               </Split>
@@ -53,7 +54,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/taj-residencia/proximity.webp" alt="" />
+                <img
+                  src="/img/taj-residencia/proximity.webp"
+                  alt="taj-residencia-images"
+                />
               </div>
             </div>
           </div>
@@ -62,7 +66,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/taj-residencia/master-plan.webp" alt="" />
+                <img
+                  src="/img/taj-residencia/master-plan.webp"
+                  alt="taj-residencia-images"
+                />
               </div>
             </div>
           </div>
@@ -76,7 +83,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Master Plan
                 </h3>
               </Split>
@@ -107,7 +115,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Why Taj Residencia
                 </h3>
               </Split>
@@ -133,7 +142,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   NOC
                 </h3>
               </Split>
@@ -162,7 +172,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Amenities
                 </h3>
               </Split>
@@ -181,7 +192,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/taj-residencia/amenities.webp" alt="" />
+                <img
+                  src="/img/taj-residencia/amenities.webp"
+                  alt="taj-residencia-images"
+                />
               </div>
             </div>
           </div>

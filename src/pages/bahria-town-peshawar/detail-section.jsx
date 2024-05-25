@@ -34,7 +34,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Properties within Bahria Town Peshawar set to be unveiled in
                   the near future.
                 </h3>
@@ -53,7 +54,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/intro/3.jpg" alt="bahria-town-peshawar-images" />
               </div>
             </div>
           </div>
@@ -62,7 +63,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/intro/3.jpg" alt="bahria-town-peshawar-images" />
               </div>
             </div>
           </div>
@@ -76,7 +77,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   What makes Bahria Town Peshawar the optimal choice?
                 </h3>
               </Split>
@@ -108,7 +110,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Advantages of Residing in Bahria Peshawar.
                 </h3>
               </Split>
@@ -131,7 +134,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/intro/3.jpg" alt="bahria-town-peshawar-images" />
               </div>
             </div>
           </div>
@@ -140,7 +143,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <img src="/img/intro/3.jpg" alt="bahria-town-peshawar-images" />
               </div>
             </div>
           </div>
@@ -154,7 +157,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Why Should You Consider Investing in Bahria Peshawar?
                 </h3>
               </Split>

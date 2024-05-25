@@ -34,7 +34,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Owners And Developers:
                 </h3>
               </Split>
@@ -55,7 +56,7 @@ const AboutUs2 = ({ skillsTheme }) => {
               <div className="bimg wow imago">
                 <img
                   src="/img/nmc-gujar-khan/Developer-and-Owners.webp"
-                  alt=""
+                  alt="new-metro-city-gujar-khan-images"
                 />
               </div>
             </div>
@@ -65,7 +66,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/nmc-gujar-khan/New-Metro-City-LOP.webp" alt="" />
+                <img
+                  src="/img/nmc-gujar-khan/New-Metro-City-LOP.webp"
+                  alt="new-metro-city-gujar-khan-images"
+                />
               </div>
             </div>
           </div>
@@ -79,7 +83,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   NOC
                 </h3>
               </Split>
@@ -104,7 +109,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Location:
                 </h3>
               </Split>
@@ -134,7 +140,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/nmc-gujar-khan/location.webp" alt="" />
+                <img
+                  src="/img/nmc-gujar-khan/location.webp"
+                  alt="new-metro-city-gujar-khan-images"
+                />
               </div>
             </div>
           </div>
@@ -143,7 +152,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/nmc-gujar-khan/features.webp" alt="" />
+                <img
+                  src="/img/nmc-gujar-khan/features.webp"
+                  alt="new-metro-city-gujar-khan-images"
+                />
               </div>
             </div>
           </div>
@@ -157,7 +169,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Pros For Investors:
                 </h3>
               </Split>
@@ -188,7 +201,8 @@ const AboutUs2 = ({ skillsTheme }) => {
               <Split>
                 <h3
                   className="co-tit custom-font wow words chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   Master Plan
                 </h3>
               </Split>
@@ -217,7 +231,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/nmc-gujar-khan/master-plan.webp" alt="" />
+                <img
+                  src="/img/nmc-gujar-khan/master-plan.webp"
+                  alt="new-metro-city-gujar-khan-images"
+                />
               </div>
             </div>
           </div>
