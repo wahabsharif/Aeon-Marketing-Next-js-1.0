@@ -56,14 +56,14 @@ const Images = () => {
                 />
               </a>
             </div>
-            <div className="col-md-12 pr-0">
+            {/* <div className="col-md-12 pr-0">
               <a href="">
                 <img
                   alt="aeon-marketing-gallery"
                   src="/img/gallery/gallery-3.webp"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
