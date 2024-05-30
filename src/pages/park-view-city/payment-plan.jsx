@@ -75,29 +75,40 @@ const PaymentPlan = () => {
                   991: {
                     slidesPerView: 2,
                   },
-                }}>
+                }}
+              >
                 {works1SliderData.map((slide) => (
                   <SwiperSlide key={slide.id} className="swiper-slide">
                     <div
                       className="content wow noraidus fadeInUp"
-                      data-wow-delay=".3s">
+                      data-wow-delay=".3s"
+                    >
                       <Link
+                        legacyBehavior
                         href="/pdf/park-view-city-payment-plan.pdf"
-                        passHref>
+                        passHref
+                      >
                         <div
                           className="item-img bg-img wow imago"
                           style={{
                             backgroundImage: `url(${slide.image})`,
-                          }}></div>
+                          }}
+                        ></div>
                       </Link>
                       <div className="cont">
                         <h6 className="color-font">
-                          <Link href="/pdf/park-view-city-payment-plan.pdf">
+                          <Link
+                            legacyBehavior
+                            href="/pdf/park-view-city-payment-plan.pdf"
+                          >
                             {slide.title}
                           </Link>
                         </h6>
                         <h4>
-                          <Link href="/pdf/park-view-city-payment-plan.pdf">
+                          <Link
+                            legacyBehavior
+                            href="/pdf/park-view-city-payment-plan.pdf"
+                          >
                             {slide.secTex}
                           </Link>
                         </h4>
@@ -109,12 +120,14 @@ const PaymentPlan = () => {
 
               <div
                 ref={navigationNextRef}
-                className="swiper-button-next swiper-nav-ctrl simp-next cursor-pointer">
+                className="swiper-button-next swiper-nav-ctrl simp-next cursor-pointer"
+              >
                 <span className="simple-btn right">Next</span>
               </div>
               <div
                 ref={navigationPrevRef}
-                className="swiper-button-prev swiper-nav-ctrl simp-prev cursor-pointer">
+                className="swiper-button-prev swiper-nav-ctrl simp-prev cursor-pointer"
+              >
                 <span className="simple-btn">Prev</span>
               </div>
             </div>

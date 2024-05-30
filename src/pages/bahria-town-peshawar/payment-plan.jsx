@@ -75,23 +75,31 @@ const PaymentPlan = () => {
                   991: {
                     slidesPerView: 2,
                   },
-                }}>
+                }}
+              >
                 {works1SliderData.map((slide) => (
                   <SwiperSlide key={slide.id} className="swiper-slide">
                     <div
                       className="content wow noraidus fadeInUp"
-                      data-wow-delay=".3s">
+                      data-wow-delay=".3s"
+                    >
                       <div
                         className="item-img bg-img wow imago"
                         style={{
                           backgroundImage: `url(${slide.image})`,
-                        }}></div>
+                        }}
+                      ></div>
                       <div className="cont">
                         <h6 className="color-font">
-                          <Link href="/works/works-dark">{slide.title}</Link>
+                          <Link legacyBehavior href="/works/works-dark">
+                            {slide.title}
+                          </Link>
                         </h6>
                         <h4>
-                          <Link href="/project-details2/project-details2-dark">
+                          <Link
+                            legacyBehavior
+                            href="/project-details2/project-details2-dark"
+                          >
                             {slide.secTex}
                           </Link>
                         </h4>
@@ -103,12 +111,14 @@ const PaymentPlan = () => {
 
               <div
                 ref={navigationNextRef}
-                className="swiper-button-next swiper-nav-ctrl simp-next cursor-pointer">
+                className="swiper-button-next swiper-nav-ctrl simp-next cursor-pointer"
+              >
                 <span className="simple-btn right">Next</span>
               </div>
               <div
                 ref={navigationPrevRef}
-                className="swiper-button-prev swiper-nav-ctrl simp-prev cursor-pointer">
+                className="swiper-button-prev swiper-nav-ctrl simp-prev cursor-pointer"
+              >
                 <span className="simple-btn">Prev</span>
               </div>
             </div>

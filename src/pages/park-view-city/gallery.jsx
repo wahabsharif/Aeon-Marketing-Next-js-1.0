@@ -19,7 +19,7 @@ const Gallery = () => {
         <div className="gallery full-width">
           <div className="col-md-6 items graphic">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-              <Link href="/gallery">
+              <Link legacyBehavior href="/gallery">
                 <a>
                   <img
                     src="/img/park-view-city/Gallery-1-(1920x2715).webp"
@@ -34,7 +34,7 @@ const Gallery = () => {
             <div className="row">
               <div className="col-lg-10">
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/gallery">
+                  <Link legacyBehavior href="/gallery">
                     <a>
                       <img
                         src="/img/park-view-city/Gallery-1-(600x446).webp"
@@ -49,7 +49,7 @@ const Gallery = () => {
 
           <div className="col-md-6 items brand">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-              <Link href="/gallery">
+              <Link legacyBehavior href="/gallery">
                 <a>
                   <img
                     src="/img/park-view-city/Gallery-1-(1759x2500).webp"
@@ -64,7 +64,7 @@ const Gallery = () => {
             <div className="row">
               <div className="col-lg-10 offset-lg-2">
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/gallery">
+                  <Link legacyBehavior href="/gallery">
                     <a>
                       <img
                         src="/img/park-view-city/Gallery-2-(600x446).webp"
@@ -81,7 +81,7 @@ const Gallery = () => {
             <div className="row">
               <div className="col-lg-11 offset-lg-1">
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/gallery">
+                  <Link legacyBehavior href="/gallery">
                     <a>
                       <img
                         src="/img/park-view-city/Gallery-1-(600x848).webp"
@@ -96,7 +96,7 @@ const Gallery = () => {
 
           <div className="col-md-6 items graphic">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-              <Link href="/gallery">
+              <Link legacyBehavior href="/gallery">
                 <a>
                   <img
                     src="/img/park-view-city/Gallery-2-(600x848).webp"

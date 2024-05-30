@@ -1,8 +1,11 @@
 import React from "react";
 import introData from "../../data/home/hero.json";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
+// import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
+// Install Swiper modules
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -10,7 +13,7 @@ import Split from "../../components/Split";
 import fadeWhenScroll from "../../common/fadeWhenScroll";
 import removeSlashFromPagination from "../../common/removeSlashFromPagination";
 
-SwiperCore.use([Navigation, Pagination, Parallax, Autoplay]);
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 const HomeHero = () => {
   const [load, setLoad] = React.useState(true);
@@ -31,18 +34,16 @@ const HomeHero = () => {
       <div className="swiper-container parallax-slider">
         {!load ? (
           <Swiper
-            speed={1000}
-            autoplay={true}
+            speed={300}
+            autoplay={{ enabled: true }}
             parallax={true}
             navigation={{
               prevEl: navigationPrevRef.current,
               nextEl: navigationNextRef.current,
             }}
-            pagination={{
-              type: "fraction",
-              clickable: true,
-              el: paginationRef.current,
-            }}
+            pagination={{ clickable: true }}
+            // Enable scrollbar
+            scrollbar={{ draggable: true }}
             onBeforeInit={(swiper) => {
               swiper.params.navigation.prevEl = navigationPrevRef.current;
               swiper.params.navigation.nextEl = navigationNextRef.current;
@@ -50,26 +51,16 @@ const HomeHero = () => {
             }}
             onSwiper={(swiper) => {
               setTimeout(() => {
-                for (var i = 0; i < swiper.slides.length; i++) {
-                  swiper.slides[i].childNodes[0].setAttribute(
-                    "data-swiper-parallax",
-                    0.75 * swiper.width
-                  );
+                console.log(swiper.slides); // Add this to debug
+                if (swiper && swiper.slides && swiper.slides.length) {
+                  for (var i = 0; i < swiper.slides.length; i++) {
+                    swiper.slides[i].childNodes[0].setAttribute(
+                      "data-swiper-parallax",
+                      0.75 * swiper.width
+                    );
+                  }
                 }
-
-                swiper.params.navigation.prevEl = navigationPrevRef.current;
-                swiper.params.navigation.nextEl = navigationNextRef.current;
-
-                swiper.params.pagination.el = paginationRef.current;
-
-                swiper.navigation.destroy();
-                swiper.navigation.init();
-                swiper.navigation.update();
-
-                swiper.pagination.destroy();
-                swiper.pagination.init();
-                swiper.pagination.update();
-              });
+              }, 1000); // Adjust based on your needs
             }}
             className="swiper-wrapper"
             slidesPerView={1}

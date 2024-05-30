@@ -19,7 +19,7 @@ const Gallery = () => {
         <div className="gallery full-width">
           <div className="col-md-6 items graphic">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-              <Link href="/gallery">
+              <Link legacyBehavior href="/gallery">
                 <a>
                   <img src="/img/nmc-gujar-khan/1920x2715.webp" alt="image" />
                 </a>
@@ -31,7 +31,7 @@ const Gallery = () => {
             <div className="row">
               <div className="col-lg-10">
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/gallery">
+                  <Link legacyBehavior href="/gallery">
                     <a>
                       <img src="/img/nmc-gujar-khan/600x446.webp" alt="image" />
                     </a>
@@ -43,7 +43,7 @@ const Gallery = () => {
 
           <div className="col-md-6 items brand">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-              <Link href="/gallery">
+              <Link legacyBehavior href="/gallery">
                 <a>
                   <img src="/img/nmc-gujar-khan/1920x2715.webp" alt="image" />
                 </a>
@@ -55,7 +55,7 @@ const Gallery = () => {
             <div className="row">
               <div className="col-lg-10 offset-lg-2">
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/gallery">
+                  <Link legacyBehavior href="/gallery">
                     <a>
                       <img
                         src="/img/nmc-gujar-khan/600x446(2).webp"
@@ -72,7 +72,7 @@ const Gallery = () => {
             <div className="row">
               <div className="col-lg-11 offset-lg-1">
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/gallery">
+                  <Link legacyBehavior href="/gallery">
                     <a>
                       <img src="/img/nmc-gujar-khan/600x848.webp" alt="image" />
                     </a>
@@ -84,7 +84,7 @@ const Gallery = () => {
 
           <div className="col-md-6 items graphic">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-              <Link href="/gallery">
+              <Link legacyBehavior href="/gallery">
                 <a>
                   <img src="/img/nmc-gujar-khan/600x446(2).webp" alt="image" />
                 </a>
@@ -96,7 +96,7 @@ const Gallery = () => {
             <div className="row">
               <div className="col-lg-10">
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href="/gallery">
+                  <Link legacyBehavior href="/gallery">
                     <a>
                       <img
                         src="/img/nmc-gujar-khan/600x848(2).webp"
@@ -111,7 +111,7 @@ const Gallery = () => {
 
           <div className="col-md-6 items web">
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-              <Link href="/gallery">
+              <Link legacyBehavior href="/gallery">
                 <a>
                   <img src="/img/nmc-gujar-khan/600x446(4).webp" alt="image" />
                 </a>

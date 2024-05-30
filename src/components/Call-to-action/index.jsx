@@ -6,7 +6,8 @@ const CallToAction = ({ img, theme, subBG }) => {
   return (
     <section
       className={`call-action section-padding ${subBG ? "sub-bg" : ""} bg-img`}
-      style={{ backgroundImage: `url(${img ? img : "/img/pattern.png"})` }}>
+      style={{ backgroundImage: `url(${img ? img : "/img/pattern.png"})` }}
+    >
       <div className="container pb-1">
         <div className="row">
           <div className="col-md-8 col-lg-9">
@@ -17,7 +18,8 @@ const CallToAction = ({ img, theme, subBG }) => {
                 </h6>
                 <h2
                   className="wow words custom-font chars splitting"
-                  data-splitting>
+                  data-splitting
+                >
                   about your <b>Future Growth</b>.
                 </h2>
               </Split>
@@ -25,12 +27,13 @@ const CallToAction = ({ img, theme, subBG }) => {
           </div>
 
           <div className="col-md-4 col-lg-3 valign">
-            <Link href="/contact/contact-dark">
+            <Link legacyBehavior href="/contact/contact-dark">
               <a
                 className={`btn-curve ${
                   theme == "light" ? "btn-blc" : "btn-lit"
                 } wow fadeInUp`}
-                data-wow-delay=".5s">
+                data-wow-delay=".5s"
+              >
                 <span>Get In Touch</span>
               </a>
             </Link>
