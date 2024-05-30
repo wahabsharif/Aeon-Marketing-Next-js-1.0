@@ -6473,17 +6473,18 @@ header.simpl .caption .btn-curve {
   width: 90%;
   max-width: 500px;
   padding: 40px 30px;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
-  margin-left: -360px;
-  margin-top: -185px;
+  transform: translate(-50%, -50%);
   text-align: center;
   box-shadow: 0 0 30px rgba(18, 17, 12, 0.5);
+  box-sizing: border-box;
 }
+
 @media only screen and (max-width: 800px) {
   .popWindow {
-    margin-left: -45%;
+    padding: 20px 15px;
   }
 }
 .close-btn {
@@ -6667,4 +6668,9 @@ header.simpl .caption .btn-curve {
 
 .shake {
   animation: shake 0.5s;
+}
+@media (max-width: 600px) {
+  .popWindow {
+    padding: 20px 15px;
+  }
 }

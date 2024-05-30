@@ -21,7 +21,7 @@ const CeoMessage = ({ skillsTheme }) => {
     },
   };
   return (
-    <section className="about section-padding">
+    <section className="about">
       <div className="container">
         <div className="row my-4">
           <div className="col-12 text-center my-5">
