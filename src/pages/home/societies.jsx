@@ -81,7 +81,7 @@ const Societies = () => {
               <Link legacyBehavior href="/park-view-city">
                 <a>
                   <img
-                    src="/img/projects-and-socities/parkview-city-project-img.jpg"
+                    src="/img/projects-and-socities/parkview-city-project-img.webp"
                     alt="park view city"
                   />
                 </a>

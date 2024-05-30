@@ -21,7 +21,7 @@ const Gallery = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/project-details/project-details-dark">
                 <a>
-                  <img src="/img/portfolio/works/1.jpg" alt="image" />
+                  <img src="/img/portfolio/works/1.webp" alt="image" />
                 </a>
               </Link>
               <div className="cont">
@@ -42,7 +42,7 @@ const Gallery = () => {
                     href="/project-details/project-details-dark"
                   >
                     <a>
-                      <img src="/img/portfolio/works/2.jpg" alt="image" />
+                      <img src="/img/portfolio/works/2.webp" alt="image" />
                     </a>
                   </Link>
                   <div className="cont">
@@ -60,7 +60,7 @@ const Gallery = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/project-details/project-details-dark">
                 <a>
-                  <img src="/img/portfolio/works/3.jpg" alt="image" />
+                  <img src="/img/portfolio/works/3.webp" alt="image" />
                 </a>
               </Link>
               <div className="cont">
@@ -81,7 +81,7 @@ const Gallery = () => {
                     href="/project-details/project-details-dark"
                   >
                     <a>
-                      <img src="/img/portfolio/works/6.jpg" alt="image" />
+                      <img src="/img/portfolio/works/6.webp" alt="image" />
                     </a>
                   </Link>
                   <div className="cont">
@@ -104,7 +104,7 @@ const Gallery = () => {
                     href="/project-details/project-details-dark"
                   >
                     <a>
-                      <img src="/img/portfolio/works/5.jpg" alt="image" />
+                      <img src="/img/portfolio/works/5.webp" alt="image" />
                     </a>
                   </Link>
                   <div className="cont">
@@ -122,7 +122,7 @@ const Gallery = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/project-details/project-details-dark">
                 <a>
-                  <img src="/img/portfolio/works/4.jpg" alt="image" />
+                  <img src="/img/portfolio/works/4.webp" alt="image" />
                 </a>
               </Link>
               <div className="cont">
@@ -143,7 +143,7 @@ const Gallery = () => {
                     href="/project-details/project-details-dark"
                   >
                     <a>
-                      <img src="/img/portfolio/works/7.jpg" alt="image" />
+                      <img src="/img/portfolio/works/7.webp" alt="image" />
                     </a>
                   </Link>
                   <div className="cont">
@@ -161,7 +161,7 @@ const Gallery = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/project-details/project-details-dark">
                 <a>
-                  <img src="/img/portfolio/works/8.jpg" alt="image" />
+                  <img src="/img/portfolio/works/8.webp" alt="image" />
                 </a>
               </Link>
               <div className="cont">

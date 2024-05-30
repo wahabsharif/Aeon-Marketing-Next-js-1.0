@@ -104,13 +104,13 @@ const Footer = ({ noSubBG }) => {
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>
               <div className="insta-gallary">
                 <a href="#0">
-                  <img src="/img/insta/1.jpg" alt="aeon-marketing-logo" />
+                  <img src="/img/insta/1.webp" alt="aeon-marketing-logo" />
                 </a>
                 <a href="#0">
-                  <img src="/img/insta/2.jpg" alt="aeon-marketing-logo" />
+                  <img src="/img/insta/2.webp" alt="aeon-marketing-logo" />
                 </a>
                 <a href="#0">
-                  <img src="/img/insta/3.jpg" alt="aeon-marketing-logo" />
+                  <img src="/img/insta/3.webp" alt="aeon-marketing-logo" />
                 </a>
               </div>
             </div> */}

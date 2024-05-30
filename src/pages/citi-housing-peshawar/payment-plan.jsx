@@ -45,13 +45,21 @@ const PaymentPlan = () => {
                 }}
                 onSwiper={(swiper) => {
                   setTimeout(() => {
-                    swiper.params.navigation.prevEl = navigationPrevRef.current;
-                    swiper.params.navigation.nextEl = navigationNextRef.current;
+                    if (swiper && swiper.params && swiper.params.navigation) {
+                      swiper.params.navigation.prevEl =
+                        navigationPrevRef.current;
+                      swiper.params.navigation.nextEl =
+                        navigationNextRef.current;
 
-                    swiper.navigation.destroy();
-                    swiper.navigation.init();
-                    swiper.navigation.update();
-                  });
+                      // Safely attempt to destroy the navigation module
+                      if (swiper.navigation) {
+                        swiper.navigation.destroy();
+                      }
+
+                      swiper.navigation.init();
+                      swiper.navigation.update();
+                    }
+                  }, 100); // Adjusted timeout to a smaller value for immediate execution
                 }}
                 autoplay={{
                   delay: 2500,

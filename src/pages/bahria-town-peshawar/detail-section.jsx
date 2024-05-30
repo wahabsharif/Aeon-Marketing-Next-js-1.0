@@ -54,7 +54,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="bahria-town-peshawar-images" />
+                <img
+                  src="/img/intro/3.webp"
+                  alt="bahria-town-peshawar-images"
+                />
               </div>
             </div>
           </div>
@@ -63,7 +66,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="bahria-town-peshawar-images" />
+                <img
+                  src="/img/intro/3.webp"
+                  alt="bahria-town-peshawar-images"
+                />
               </div>
             </div>
           </div>
@@ -134,7 +140,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="bahria-town-peshawar-images" />
+                <img
+                  src="/img/intro/3.webp"
+                  alt="bahria-town-peshawar-images"
+                />
               </div>
             </div>
           </div>
@@ -143,7 +152,10 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="bahria-town-peshawar-images" />
+                <img
+                  src="/img/intro/3.webp"
+                  alt="bahria-town-peshawar-images"
+                />
               </div>
             </div>
           </div>

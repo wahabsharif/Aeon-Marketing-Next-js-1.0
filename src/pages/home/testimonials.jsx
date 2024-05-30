@@ -44,7 +44,7 @@ class Testimonials extends React.Component {
         style={{
           backgroundImage: `${
             this.props.withBG && !this.props.imgSrc
-              ? "url(/img/slid/3.jpg)"
+              ? "url(/img/slid/3.webp)"
               : this.props.imgSrc
               ? `url(${this.props.imgSrc})`
               : "none"
@@ -98,7 +98,7 @@ class Testimonials extends React.Component {
                           <>
                             <div className="img">
                               <img
-                                src="/img/clients/1.jpg"
+                                src="/img/clients/1.webp"
                                 alt="aeon-marketing-testimonials"
                               />
                             </div>
@@ -128,7 +128,7 @@ class Testimonials extends React.Component {
                           <>
                             <div className="img">
                               <img
-                                src="/img/clients/1.jpg"
+                                src="/img/clients/1.webp"
                                 alt="aeon-marketing-testimonials"
                               />
                             </div>
@@ -158,7 +158,7 @@ class Testimonials extends React.Component {
                           <>
                             <div className="img">
                               <img
-                                src="/img/clients/1.jpg"
+                                src="/img/clients/1.webp"
                                 alt="aeon-marketing-testimonials"
                               />
                             </div>

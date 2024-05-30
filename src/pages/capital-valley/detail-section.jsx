@@ -1,4 +1,7 @@
+"use client";
+
 /* eslint-disable @next/next/no-img-element */
+
 import React from "react";
 import Split from "../../components/Split";
 import "react-circular-progressbar/dist/styles.css";
