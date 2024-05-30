@@ -110,9 +110,7 @@ const PopupForm = () => {
         <div className="col-md-8 col-md-offset-2">
           <div className="popup-overlay">
             <div className="popWindow subscribe_window">
-              <p className="subcsribe-text">
-                Subscribe to receive latest news and information
-              </p>
+              <p className="subcsribe-text">Get latest news</p>
               <form onSubmit={handleSubmit} className="subscribe-form">
                 <div>
                   <input

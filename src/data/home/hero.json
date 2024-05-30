@@ -2,25 +2,9 @@
   {
     "id": 1,
     "title": {
-      "first": "We Are Expert in",
-      "second": "Trading"
+      "first": "The Expert",
+      "second": "Investment Management"
     },
     "image": "/img/home-hero-trading.webp"
-  },
-  {
-    "id": 2,
-    "title": {
-      "first": "We Are Expert in",
-      "second": " Investment Management"
-    },
-    "image": "/img/home-hero-investment.webp"
-  },
-  {
-    "id": 3,
-    "title": {
-      "first": "We Are Expert in",
-      "second": " Property Appraisals"
-    },
-    "image": "/img/home-hero-property-appraisals.webp"
   }
 ]

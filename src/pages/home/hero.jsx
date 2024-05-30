@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import introData from "../../data/home/hero.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
@@ -6,27 +6,33 @@ import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 // Install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 import Split from "../../components/Split";
 import fadeWhenScroll from "../../common/fadeWhenScroll";
 import removeSlashFromPagination from "../../common/removeSlashFromPagination";
 
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+const preloadImage = (url) => {
+  const link = document.createElement("link");
+  link.rel = "preload";
+  link.as = "image";
+  link.href = url;
+  document.head.appendChild(link);
+};
 
 const HomeHero = () => {
-  const [load, setLoad] = React.useState(true);
-  React.useEffect(() => {
+  const [load, setLoad] = useState(true);
+
+  useEffect(() => {
     fadeWhenScroll();
+    introData.forEach((slide) => preloadImage(slide.image));
     setTimeout(() => {
       setLoad(false);
       removeSlashFromPagination();
     }, 1000);
   }, []);
 
-  const navigationPrevRef = React.useRef(null);
-  const navigationNextRef = React.useRef(null);
-  const paginationRef = React.useRef(null);
+  const navigationPrevRef = useRef(null);
+  const navigationNextRef = useRef(null);
+  const paginationRef = useRef(null);
 
   return (
     <header className="slider slider-prlx">
@@ -98,24 +104,6 @@ const HomeHero = () => {
             ))}
           </Swiper>
         ) : null}
-        <div className="setone setwo">
-          <div
-            ref={navigationNextRef}
-            className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
-          >
-            <i className="fas fa-chevron-right"></i>
-          </div>
-          <div
-            ref={navigationPrevRef}
-            className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
-          >
-            <i className="fas fa-chevron-left"></i>
-          </div>
-        </div>
-        <div
-          ref={paginationRef}
-          className="swiper-pagination top botm custom-font"
-        ></div>
 
         <div className="social-icon">
           <a href="https://www.facebook.com/ISP006" className="icon">
