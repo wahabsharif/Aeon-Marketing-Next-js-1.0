@@ -1,32 +1,42 @@
-import React from "react";
-import ContactHeader from "../../components/Contact-header";
-import ContactWithMap from "../../components/Contact-with-map";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import DarkTheme from "../../layouts/Dark";
+import React, { useRef, useEffect, Suspense } from "react";
+
+const LazyContactHeader = React.lazy(() =>
+  import("../../components/Contact-header")
+);
+const LazyContactWithMap = React.lazy(() =>
+  import("../../components/Contact-with-map")
+);
+const LazyNavbar = React.lazy(() => import("../../components/Navbar"));
+const LazyFooter = React.lazy(() => import("../../components/Footer"));
+const LazyDarkTheme = React.lazy(() => import("../../layouts/Dark"));
 
 const Contact = () => {
-  const fixedHeader = React.useRef(null);
-  const MainContent = React.useRef(null);
-  React.useEffect(() => {
-    setInterval(() => {
+  const fixedHeader = useRef(null);
+  const MainContent = useRef(null);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
       if (fixedHeader.current) {
-        var slidHeight = fixedHeader.current.offsetHeight;
-      }
-      if (MainContent.current) {
-        MainContent.current.style.marginTop = slidHeight + "px";
+        const slidHeight = fixedHeader.current.offsetHeight;
+        if (MainContent.current) {
+          MainContent.current.style.marginTop = slidHeight + "px";
+        }
       }
     }, 1000);
+    return () => clearInterval(interval);
   }, []);
+
   return (
-    <DarkTheme>
-      <Navbar />
-      <ContactHeader sliderRef={fixedHeader} />
-      <div className="main-content" ref={MainContent}>
-        <ContactWithMap />
-      </div>
-      <Footer />
-    </DarkTheme>
+    <Suspense fallback={<div>Loading...</div>}>
+      <LazyDarkTheme>
+        <LazyNavbar />
+        <LazyContactHeader sliderRef={fixedHeader} />
+        <div className="main-content" ref={MainContent}>
+          <LazyContactWithMap />
+        </div>
+        <LazyFooter />
+      </LazyDarkTheme>
+    </Suspense>
   );
 };
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const GoogleForm = () => {
+const PopupForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -173,4 +173,4 @@ const GoogleForm = () => {
   );
 };
 
-export default GoogleForm;
+export default PopupForm;

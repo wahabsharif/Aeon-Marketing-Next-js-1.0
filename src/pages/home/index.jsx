@@ -1,17 +1,21 @@
-import React from "react";
-import CallToAction from "../../components/Call-to-action";
-import Footer from "../../components/Footer";
+import dynamic from "next/dynamic";
 import DarkTheme from "../../layouts/Dark";
-import Navbar from "../../components/Navbar";
-import CeoMessage from "./ceo-message";
-import WhoWeAre from "./who-we-are";
-import Features from "./features";
-import Societies from "./societies";
-import Testimonials from "./testimonials";
-// import OurTeam from "./our-team";
-// import GoogleMap from "../../components/Google-Map";
-import HomeHero from "./hero";
-import GoogleForm from "../../components/GoogleForm";
+
+// Dynamic import components
+const Navbar = dynamic(() => import("../../components/Navbar"), { ssr: true });
+const HomeHero = dynamic(() => import("./hero"), { ssr: true });
+const CeoMessage = dynamic(() => import("./ceo-message"), { ssr: true });
+const WhoWeAre = dynamic(() => import("./who-we-are"), { ssr: true });
+const Features = dynamic(() => import("./features"), { ssr: true });
+const Societies = dynamic(() => import("./societies"), { ssr: true });
+const Testimonials = dynamic(() => import("./testimonials"), { ssr: true });
+const CallToAction = dynamic(() => import("../../components/Call-to-action"), {
+  ssr: true,
+});
+const PopupForm = dynamic(() => import("../../components/PopupForm"), {
+  ssr: true,
+});
+const Footer = dynamic(() => import("../../components/Footer"), { ssr: true });
 
 const Home = () => {
   return (
@@ -19,13 +23,12 @@ const Home = () => {
       <Navbar />
       <HomeHero />
       <CeoMessage />
-      {/* <OurTeam /> */}
       <WhoWeAre />
       <Features />
       <Societies />
       <Testimonials />
       <CallToAction />
-      <GoogleForm />
+      <PopupForm />
       <Footer />
     </DarkTheme>
   );

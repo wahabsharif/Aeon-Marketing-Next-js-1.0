@@ -1,28 +1,32 @@
-import React from "react";
-import About from "./about";
-import DetailSection from "./detail-section";
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
-import DarkTheme from "../../layouts/Dark";
-import Gallery from "./gallery";
-import Hero from "./hero";
-import PaymentPlan from "./payment-plan";
+import dynamic from "next/dynamic";
+import React, { useRef, useEffect } from "react";
 
-const Homepage4 = () => {
-  const fixedSlider = React.useRef(null);
-  const MainContent = React.useRef(null);
-  const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
+const About = dynamic(() => import("./about"));
+const DetailSection = dynamic(() => import("./detail-section"));
+const Footer = dynamic(() => import("../../components/Footer"));
+const Navbar = dynamic(() => import("../../components/Navbar"));
+const DarkTheme = dynamic(() => import("../../layouts/Dark"));
+const Gallery = dynamic(() => import("./gallery"));
+const Hero = dynamic(() => import("./hero"));
+const PaymentPlan = dynamic(() => import("./payment-plan"));
 
-  React.useEffect(() => {
-    setInterval(() => {
+const CitiHousingPeshawar = () => {
+  const fixedSlider = useRef(null);
+  const MainContent = useRef(null);
+  const navbarRef = useRef(null);
+  const logoRef = useRef(null);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
       if (fixedSlider.current) {
         var slidHeight = fixedSlider.current.offsetHeight;
-      }
-      if (MainContent.current) {
-        MainContent.current.style.marginTop = slidHeight + "px";
+        if (MainContent.current) {
+          MainContent.current.style.marginTop = slidHeight + "px";
+        }
       }
     }, 1000);
+
+    return () => clearInterval(interval);
   }, [fixedSlider, MainContent]);
 
   return (
@@ -40,4 +44,4 @@ const Homepage4 = () => {
   );
 };
 
-export default Homepage4;
+export default CitiHousingPeshawar;

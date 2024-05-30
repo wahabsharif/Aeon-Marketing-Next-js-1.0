@@ -1,11 +1,10 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
-    return {
-      ...initialProps,
-    };
+    return { ...initialProps };
   }
 
   render() {
@@ -16,7 +15,7 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="Aeon Marketing, aeon, marketing, phone, address, floor, islamabad, email, follow, real-estate, bahria town peshawar, citi housing peshawar, capital valley, park view, city, taj residencia, rudn enclave, kingdom valley, new metro city gujar khan, bahria, town, peshawar, citi, housing, peshawar, capital, valley, park, view, city, taj, residencia, rudn, enclave, kingdom, valley, new, metro, city, gujar, khan, nmc, pvc, cv, tr, re, kv, "
+            content="Aeon Marketing, aeon, marketing, phone, address, floor, islamabad, email, follow, real-estate, bahria town peshawar, citi housing peshawar, capital valley, park view, city, taj residencia, rudn enclave, kingdom valley, new metro city gujar khan, bahria, town, peshawar, citi, housing, peshawar, capital, valley, park, view, city, taj, residencia, rudn, enclave, kingdom, valley, new, metro, city, gujar, khan, nmc, pvc, cv, tr, re, kv"
           />
           <meta
             name="description"
@@ -30,10 +29,7 @@ class MyDocument extends Document {
             hrefLang="en"
             href="https://aeonmarketing.com.pk/"
           />
-          <link
-            rel="shortcut icon"
-            href="/public/img/aeon-marketing-icon.png"
-          />
+          <link rel="shortcut icon" href="/img/aeon-marketing-icon.png" />
           {/* Google Fonts */}
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
@@ -60,6 +56,12 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          {/* Dynamic scripts */}
+          <Script strategy="beforeInteractive" src="/js/wow.min.js" />
+          <Script strategy="beforeInteractive" src="/js/splitting.min.js" />
+          <Script src="/js/simpleParallax.min.js" />
+          <Script strategy="beforeInteractive" src="/js/isotope.pkgd.min.js" />
+          <Script strategy="lazyOnload" src="/js/initWow.js" />
         </body>
       </Html>
     );

@@ -1,41 +1,45 @@
-import React from "react";
-import About from "./about";
-import DetailSection from "./detail-section";
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
+import dynamic from "next/dynamic";
+import React, { useEffect, useRef, useState } from "react";
 import DarkTheme from "../../layouts/Dark";
-import Gallery from "./gallery";
-import Hero from "./hero";
 
-const Homepage4 = () => {
-  const fixedSlider = React.useRef(null);
-  const MainContent = React.useRef(null);
-  const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
+// Define lazy-loaded components
+const DynamicAbout = dynamic(() => import("./about"));
+const DynamicDetailSection = dynamic(() => import("./detail-section"));
+const DynamicFooter = dynamic(() => import("../../components/Footer"));
+const DynamicNavbar = dynamic(() => import("../../components/Navbar"));
+const DynamicGallery = dynamic(() => import("./gallery"));
+const DynamicHero = dynamic(() => import("./hero"));
 
-  React.useEffect(() => {
-    setInterval(() => {
+const BahriaTownPeshawar = () => {
+  const fixedSlider = useRef(null);
+  const MainContent = useRef(null);
+  const navbarRef = useRef(null);
+  const logoRef = useRef(null);
+  const [slidHeight, setSlidHeight] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
       if (fixedSlider.current) {
-        var slidHeight = fixedSlider.current.offsetHeight;
-      }
-      if (MainContent.current) {
-        MainContent.current.style.marginTop = slidHeight + "px";
+        setSlidHeight(fixedSlider.current.offsetHeight);
       }
     }, 1000);
-  }, [fixedSlider, MainContent]);
+    return () => clearInterval(interval);
+  }, [fixedSlider]);
 
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} />
-      <Hero sliderRef={fixedSlider} />
-      <div ref={MainContent} className="main-content">
-        <About />
-        <Gallery />
-        <DetailSection />
-        <Footer />
-      </div>
+      <React.Suspense fallback={<div>Loading...</div>}>
+        <DynamicNavbar nr={navbarRef} lr={logoRef} />
+        <DynamicHero sliderRef={fixedSlider} />
+        <div ref={MainContent} className="main-content">
+          <DynamicAbout />
+          <DynamicGallery />
+          <DynamicDetailSection />
+          <DynamicFooter />
+        </div>
+      </React.Suspense>
     </DarkTheme>
   );
 };
 
-export default Homepage4;
+export default BahriaTownPeshawar;

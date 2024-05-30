@@ -1,20 +1,21 @@
-import React from "react";
-import DarkTheme from "../../layouts/Dark";
-import Navbar from "../../components/Navbar";
-import Hero from "./hero";
-import Intro from "./intro";
-import Images from "./images";
-import Footer from "../../components/Footer";
+import dynamic from "next/dynamic";
+
+const DynamicDarkTheme = dynamic(() => import("../../layouts/Dark"));
+const DynamicNavbar = dynamic(() => import("../../components/Navbar"));
+const DynamicHero = dynamic(() => import("./hero"));
+const DynamicIntro = dynamic(() => import("./intro"));
+const DynamicImages = dynamic(() => import("./images"));
+const DynamicFooter = dynamic(() => import("../../components/Footer"));
 
 const Gallery = () => {
   return (
-    <DarkTheme>
-      <Navbar />
-      <Hero />
-      <Intro />
-      <Images />
-      <Footer />
-    </DarkTheme>
+    <DynamicDarkTheme>
+      <DynamicNavbar />
+      <DynamicHero />
+      <DynamicIntro />
+      <DynamicImages />
+      <DynamicFooter />
+    </DynamicDarkTheme>
   );
 };
 
