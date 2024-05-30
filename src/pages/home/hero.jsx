@@ -1,7 +1,6 @@
 import React from "react";
 import introData from "../../data/home/hero.json";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
 // Install Swiper modules
