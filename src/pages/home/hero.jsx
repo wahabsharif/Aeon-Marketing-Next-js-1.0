@@ -1,7 +1,6 @@
 import React from "react";
 import introData from "../../data/home/hero.json";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Link from "next/link";
 import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
 
 import "swiper/css";
@@ -73,13 +72,15 @@ const HomeHero = () => {
               });
             }}
             className="swiper-wrapper"
-            slidesPerView={1}>
+            slidesPerView={1}
+          >
             {introData.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="bg-img valign"
                   style={{ backgroundImage: `url(${slide.image})` }}
-                  data-overlay-dark="6">
+                  data-overlay-dark="6"
+                >
                   <div className="container">
                     <div className="row">
                       <div className="col-lg-12">
@@ -110,18 +111,21 @@ const HomeHero = () => {
         <div className="setone setwo">
           <div
             ref={navigationNextRef}
-            className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
+            className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
+          >
             <i className="fas fa-chevron-right"></i>
           </div>
           <div
             ref={navigationPrevRef}
-            className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
+            className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
+          >
             <i className="fas fa-chevron-left"></i>
           </div>
         </div>
         <div
           ref={paginationRef}
-          className="swiper-pagination top botm custom-font"></div>
+          className="swiper-pagination top botm custom-font"
+        ></div>
 
         <div className="social-icon">
           <a href="https://www.facebook.com/ISP006" className="icon">
@@ -129,7 +133,8 @@ const HomeHero = () => {
           </a>
           <a
             href="https://www.instagram.com/aeonmarketingoffical/"
-            className="icon">
+            className="icon"
+          >
             <i className="fab fa-instagram"></i>
           </a>
           <a href="https://www.youtube.com/@aeonmarketing2913" className="icon">

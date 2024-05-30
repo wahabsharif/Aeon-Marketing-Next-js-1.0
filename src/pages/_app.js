@@ -3,7 +3,7 @@ import Head from "next/head";
 import Script from "next/script";
 import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/Scroll-to-top";
-import LoadingScreen from "../components/Loading-Screen";
+// import LoadingScreen from "../components/Loading-Screen";
 import "../styles/globals.css";
 import FloatingWA from "../components/FloatingWA";
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -42,9 +42,10 @@ const MyApp = ({ Component, pageProps }) => {
       <Head>
         <title>Aeon Marketing</title>
         <link rel="icon" href="/img/aeon-marketing-icon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Cursor />
-      <LoadingScreen />
+      {/* <LoadingScreen /> */}
       <ScrollToTop />
       <FloatingWA />
       <Component {...pageProps} />
