@@ -23,22 +23,34 @@ function MyApp({ Component, pageProps }) {
       <GoogleTagManager gtmId="AW-16571160044" />
 
       <Script
+        async
         strategy="beforeInteractive"
         id="wow"
         src="/js/wow.min.js"
       ></Script>
       <Script
+        async
         strategy="beforeInteractive"
         id="splitting"
         src="/js/splitting.min.js"
       ></Script>
-      <Script id="simpleParallax" src="/js/simpleParallax.min.js"></Script>
       <Script
+        async
+        id="simpleParallax"
+        src="/js/simpleParallax.min.js"
+      ></Script>
+      <Script
+        async
         strategy="beforeInteractive"
         id="isotope"
         src="/js/isotope.pkgd.min.js"
       ></Script>
-      <Script strategy="lazyOnload" id="initWow" src="/js/initWow.js"></Script>
+      <Script
+        async
+        strategy="lazyOnload"
+        id="initWow"
+        src="/js/initWow.js"
+      ></Script>
     </>
   );
 }
