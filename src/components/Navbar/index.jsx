@@ -17,7 +17,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
       >
         <div className="container-fluid">
           <div className="logo">
-            <Link legacyBehavior href="/">
+            <Link legacyBehavior className="link" href="/">
               {theme ? (
                 theme === "light" ? (
                   <img src={`${appData.darkLogo}`} alt="logo" />
@@ -52,8 +52,8 @@ const NavbarFullMenu = ({ theme, lr }) => {
                 <ul className="main-menu">
                   <li>
                     <div className="o-hidden">
-                      <Link legacyBehavior href="/">
-                        <a className="link">
+                      <Link legacyBehavior className="link" href="/">
+                        <a>
                           <span className="nm">01.</span>Home
                         </a>
                       </Link>
@@ -61,9 +61,8 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">02.</span>Societies
-                        <i className="fas fa-angle-right"></i>
+                      <span className="dmenu">
+                        <span className="nm">02.</span>Societies{" + "}
                       </span>
                     </div>
                     <div className="sub-menu">
@@ -77,7 +76,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link legacyBehavior href="/bahria-town-peshawar">
+                            <Link
+                              legacyBehavior
+                              className="link"
+                              href="/bahria-town-peshawar"
+                            >
                               <a className="sub-link">
                                 <span className="nm">01.</span>Bahria Town
                                 Peshawar
@@ -87,7 +90,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link legacyBehavior href="/citi-housing-peshawar">
+                            <Link
+                              legacyBehavior
+                              className="link"
+                              href="/citi-housing-peshawar"
+                            >
                               <a className="sub-link">
                                 <span className="nm">02.</span>Citi Housing
                                 Peshawar
@@ -97,7 +104,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link legacyBehavior href="/capital-valley">
+                            <Link
+                              legacyBehavior
+                              className="link"
+                              href="/capital-valley"
+                            >
                               <a className="sub-link">
                                 <span className="nm">03.</span>Capital Valley
                               </a>
@@ -106,7 +117,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link legacyBehavior href="/park-view-city">
+                            <Link
+                              legacyBehavior
+                              className="link"
+                              href="/park-view-city"
+                            >
                               <a className="sub-link">
                                 <span className="nm">04.</span>Park View City
                               </a>
@@ -115,7 +130,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link legacyBehavior href="/taj-residencia">
+                            <Link
+                              legacyBehavior
+                              className="link"
+                              href="/taj-residencia"
+                            >
                               <a className="sub-link">
                                 <span className="nm">05.</span>Taj Residencia
                               </a>
@@ -124,7 +143,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link legacyBehavior href="/rudn-enclave">
+                            <Link
+                              legacyBehavior
+                              className="link"
+                              href="/rudn-enclave"
+                            >
                               <a className="sub-link">
                                 <span className="nm">06.</span>Rudn Enclave
                               </a>
@@ -133,7 +156,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link legacyBehavior href="/kingdom-valley">
+                            <Link
+                              legacyBehavior
+                              className="link"
+                              href="/kingdom-valley"
+                            >
                               <a className="sub-link">
                                 <span className="nm">07.</span>Kingdom Valley
                               </a>
@@ -142,7 +169,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </li>
                         <li>
                           <div className="o-hidden">
-                            <Link legacyBehavior href="/nmc-gujar-khan">
+                            <Link
+                              legacyBehavior
+                              className="link"
+                              href="/nmc-gujar-khan"
+                            >
                               <a className="sub-link">
                                 <span className="nm">08.</span>New Metro City
                                 Gujar Khan
@@ -155,8 +186,8 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link legacyBehavior href="/gallery">
-                        <a className="link">
+                      <Link legacyBehavior className="link" href="/gallery">
+                        <a>
                           <span className="nm">03.</span>Gallery
                         </a>
                       </Link>
@@ -164,8 +195,8 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <Link legacyBehavior href="/contact">
-                        <a className="link">
+                      <Link legacyBehavior className="link" href="/contact">
+                        <a>
                           <span className="nm">04.</span>Contact
                         </a>
                       </Link>
