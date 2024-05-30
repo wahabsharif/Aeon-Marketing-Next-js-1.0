@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Split from "../../components/Split";
 import initIsotope from "../../common/initIsotope";
+import Image from "next/image";
 
 const Societies = () => {
   const [pageLoaded, setPageLoaded] = React.useState(false);
@@ -32,7 +33,9 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/bahria-town-peshawar">
                 <a>
-                  <img
+                  <Image
+                    width={300}
+                    height={300}
                     src="/img/projects-and-socities/bahria-town-peshawar-project-img.webp"
                     alt="Bahria Town Peshawar"
                   />
@@ -48,7 +51,9 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/citi-housing-peshawar">
                 <a>
-                  <img
+                  <Image
+                    width={300}
+                    height={300}
                     src="/img/projects-and-socities/citi-housing-peshawar-project-img.webp"
                     alt="image"
                   />
@@ -64,7 +69,9 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/capital-valley">
                 <a>
-                  <img
+                  <Image
+                    width={300}
+                    height={300}
                     src="/img/projects-and-socities/capital-valley-project-img.webp"
                     alt="image"
                   />
@@ -80,7 +87,9 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/park-view-city">
                 <a>
-                  <img
+                  <Image
+                    width={300}
+                    height={300}
                     src="/img/projects-and-socities/parkview-city-project-img.webp"
                     alt="park view city"
                   />
@@ -96,7 +105,9 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/taj-residencia">
                 <a>
-                  <img
+                  <Image
+                    width={300}
+                    height={300}
                     src="/img/projects-and-socities/taj-residencia-project-img.webp"
                     alt="image"
                   />
@@ -112,7 +123,9 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/rudn-enclave">
                 <a>
-                  <img
+                  <Image
+                    width={300}
+                    height={300}
                     src="/img/projects-and-socities/rudn-enclave-project-img.webp"
                     alt="rudn enclave"
                   />
@@ -128,7 +141,9 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/kingdom-valley">
                 <a>
-                  <img
+                  <Image
+                    width={300}
+                    height={300}
                     src="/img/projects-and-socities/kingdom-valley-project-img.webp"
                     alt="image"
                   />
@@ -144,7 +159,9 @@ const Societies = () => {
             <div className="item-img wow fadeInUp" data-wow-delay=".4s">
               <Link legacyBehavior href="/nmc-gujar-khan">
                 <a>
-                  <img
+                  <Image
+                    width={300}
+                    height={300}
                     src="/img/projects-and-socities/new-metro-city-gujar-khan-project-img.webp"
                     alt="New Metro City Gujar Khan"
                   />

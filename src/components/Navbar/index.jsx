@@ -4,6 +4,7 @@ import Split from "../Split";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import handleFullScreenNavbar from "../../common/handleFullScreenNavbar";
+import Image from "next/image";
 
 const NavbarFullMenu = ({ theme, lr }) => {
   React.useEffect(() => {
@@ -20,12 +21,27 @@ const NavbarFullMenu = ({ theme, lr }) => {
             <Link legacyBehavior className="link" href="/">
               {theme ? (
                 theme === "light" ? (
-                  <img src={`${appData.darkLogo}`} alt="logo" />
+                  <Image
+                    width={300}
+                    height={0}
+                    src={`${appData.darkLogo}`}
+                    alt="logo"
+                  />
                 ) : (
-                  <img src={`${appData.lightLogo}`} alt="logo" />
+                  <Image
+                    width={300}
+                    height={0}
+                    src={`${appData.lightLogo}`}
+                    alt="logo"
+                  />
                 )
               ) : (
-                <img src={`${appData.lightLogo}`} alt="logo" />
+                <Image
+                  width={300}
+                  height={0}
+                  src={`${appData.lightLogo}`}
+                  alt="logo"
+                />
               )}
             </Link>
           </div>

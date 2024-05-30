@@ -2,6 +2,7 @@
 import React from "react";
 import Split from "../../components/Split";
 import "react-circular-progressbar/dist/styles.css";
+import Image from "next/image";
 
 const CeoMessage = ({ skillsTheme }) => {
   const cpStyle = {
@@ -45,7 +46,12 @@ const CeoMessage = ({ skillsTheme }) => {
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/faheem.webp" alt="aeon-marketing-ceo" />
+                <Image
+                  width={300}
+                  height={300}
+                  src="/img/faheem.webp"
+                  alt="aeon-marketing-ceo"
+                />
               </div>
             </div>
           </div>
