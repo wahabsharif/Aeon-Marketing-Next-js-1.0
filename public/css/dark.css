@@ -6463,7 +6463,7 @@ header.simpl .caption .btn-curve {
   right: 0;
   bottom: 0;
   background: rgba(188, 44, 52, 0.7);
-  z-index: 100;
+  z-index: 999999;
 }
 
 .popWindow {
@@ -6471,7 +6471,7 @@ header.simpl .caption .btn-curve {
   background-color: #161613;
   color: #fff;
   width: 90%;
-  max-width: 720px;
+  max-width: 500px;
   padding: 40px 30px;
   position: absolute;
   top: 50%;
