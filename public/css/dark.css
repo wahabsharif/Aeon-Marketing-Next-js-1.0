@@ -6672,5 +6672,6 @@ header.simpl .caption .btn-curve {
 @media (max-width: 600px) {
   .popWindow {
     padding: 20px 15px;
+    top: 50%;
   }
 }
