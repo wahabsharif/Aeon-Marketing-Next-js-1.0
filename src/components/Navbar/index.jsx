@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect, useMemo } from "react";
 import Split from "../Split";
 import Link from "next/link";
 import appData from "../../data/app.json";
@@ -10,6 +10,14 @@ const NavbarFullMenu = ({ theme, lr }) => {
   React.useEffect(() => {
     handleFullScreenNavbar();
   }, []);
+
+  const logoWidth = 300; // Assuming a fixed width for the logo
+  const logoHeight = 0; // Calculate the appropriate height based on aspect ratio
+
+  const logoSrc = useMemo(() => {
+    return theme === "light" ? appData.darkLogo : appData.lightLogo;
+  }, [theme]);
+
   return (
     <>
       <div
@@ -18,31 +26,15 @@ const NavbarFullMenu = ({ theme, lr }) => {
       >
         <div className="container-fluid">
           <div className="logo">
-            <Link legacyBehavior className="link" href="/">
-              {theme ? (
-                theme === "light" ? (
-                  <Image
-                    width={300}
-                    height={0}
-                    src={`${appData.darkLogo}`}
-                    alt="logo"
-                  />
-                ) : (
-                  <Image
-                    width={300}
-                    height={0}
-                    src={`${appData.lightLogo}`}
-                    alt="logo"
-                  />
-                )
-              ) : (
-                <Image
-                  width={300}
-                  height={0}
-                  src={`${appData.lightLogo}`}
-                  alt="logo"
-                />
-              )}
+            <Link passHref className="link" href="/">
+              <Image
+                src={logoSrc}
+                alt="logo"
+                width={logoWidth}
+                height={logoHeight}
+                layout="fixed" // Use fixed layout for logo
+                priority // Prioritize loading of the logo
+              />
             </Link>
           </div>
           <div className="menu-icon">

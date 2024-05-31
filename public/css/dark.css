@@ -1866,7 +1866,7 @@ body {
 }
 
 .topnav .logo {
-  width: 350px;
+  width: 100px;
 }
 
 .topnav .menu-icon {
@@ -6911,7 +6911,7 @@ header.simpl .caption .btn-curve {
   }
 
   .topnav .logo {
-    width: 200px;
+    width: 80px;
     display: flex;
     align-items: center;
   }
