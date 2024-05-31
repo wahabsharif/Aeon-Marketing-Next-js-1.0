@@ -15,6 +15,15 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+  webpack: (config, { isServer }) => {
+    // Add raw-loader to handle XML files
+    config.module.rules.push({
+      test: /\.xml$/,
+      use: ["raw-loader"],
+    });
+
+    return config;
+  },
   // output: "export",
 };
 

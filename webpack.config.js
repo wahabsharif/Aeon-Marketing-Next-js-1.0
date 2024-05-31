@@ -1,6 +1,13 @@
 // webpack.config.js example
 module.exports = {
-  // Other configuration...
+  module: {
+    rules: [
+      {
+        test: /\.xml$/,
+        use: ["xml-loader"],
+      },
+    ],
+  },
   optimization: {
     splitChunks: {
       chunks: "all",

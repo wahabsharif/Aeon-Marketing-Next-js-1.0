@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -30,17 +29,16 @@ class MyDocument extends Document {
             href="https://aeonmarketing.com.pk/"
           />
           <link rel="shortcut icon" href="/img/aeon-marketing-icon.png" />
+          {/* Include your scripts asynchronously */}
+          <script defer src="/js/wow.min.js" />
+          <script defer src="/js/splitting.min.js" />
+          <script defer src="/js/simpleParallax.min.js" />
+          <script defer src="/js/isotope.pkgd.min.js" />
+          <script defer src="/js/initWow.js" />
         </Head>
-
         <body>
           <Main />
           <NextScript />
-          {/* Dynamic scripts */}
-          <Script strategy="beforeInteractive" src="/js/wow.min.js" />
-          <Script strategy="beforeInteractive" src="/js/splitting.min.js" />
-          <Script src="/js/simpleParallax.min.js" />
-          <Script strategy="beforeInteractive" src="/js/isotope.pkgd.min.js" />
-          <Script strategy="lazyOnload" src="/js/initWow.js" />
         </body>
       </Html>
     );

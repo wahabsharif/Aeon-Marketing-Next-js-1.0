@@ -32,7 +32,6 @@ const NavbarFullMenu = ({ theme, lr }) => {
                 alt="logo"
                 width={logoWidth}
                 height={logoHeight}
-                layout="fixed" // Use fixed layout for logo
                 priority // Prioritize loading of the logo
               />
             </Link>
