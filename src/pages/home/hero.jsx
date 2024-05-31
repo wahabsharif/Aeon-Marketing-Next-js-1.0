@@ -69,7 +69,7 @@ const HomeHero = () => {
           }}
           data-overlay-dark="6"
         >
-          <div className="container">
+          {/* <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div style={captionStyle}>
@@ -88,7 +88,7 @@ const HomeHero = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       ) : null}
 
