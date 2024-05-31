@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 const PopupForm = () => {
   const [formData, setFormData] = useState({
@@ -19,7 +19,6 @@ const PopupForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Check for empty required fields
     let hasError = false;
     Object.keys(formData).forEach((key) => {
       const inputElement = document.querySelector(`[name="${key}"]`);
@@ -31,9 +30,7 @@ const PopupForm = () => {
       }
     });
 
-    if (hasError) {
-      return;
-    }
+    if (hasError) return;
 
     try {
       const response = await fetch("/api/sendEmail", {
@@ -43,19 +40,15 @@ const PopupForm = () => {
         },
         body: JSON.stringify(formData),
       });
-      if (response.ok) {
-        console.log("Email sent successfully");
-        setThankYouMessage("Thank you for subscribing!");
-        setThankYouVisible(true);
 
-        setTimeout(() => {
-          closePopup();
-        }, 3000); // Close after 3 seconds
+      if (response.ok) {
+        setThankYouMessage("Thank you for subscribing!");
       } else {
-        console.error("Failed to send email");
         setThankYouMessage("Oops! Something went wrong");
-        setThankYouVisible(true);
       }
+
+      setThankYouVisible(true);
+      setTimeout(closePopup, 3000);
     } catch (error) {
       console.error("Error sending form data:", error);
       setThankYouMessage("Oops! Something went wrong");
@@ -63,25 +56,51 @@ const PopupForm = () => {
     }
   };
 
-  const closePopup = () => {
+  const closePopup = useCallback(() => {
     const $popOverlay = document.querySelector(".popup-overlay");
     const $subscribeWindow = document.querySelector(".subscribe_window");
     const $thankYouWindow = document.querySelector(".thank_you_window");
 
-    $popOverlay.style.display = "none";
-    $subscribeWindow.style.display = "none";
-    $thankYouWindow.style.display = "none";
+    if ($popOverlay) $popOverlay.style.display = "none";
+    if ($subscribeWindow) $subscribeWindow.style.display = "none";
+    if ($thankYouWindow) $thankYouWindow.style.display = "none";
     setThankYouVisible(false);
-  };
+  }, []);
 
   useEffect(() => {
-    const $popOverlay = document.querySelector(".popup-overlay");
-    const $subscribeWindow = document.querySelector(".subscribe_window");
-    const $thankYouWindow = document.querySelector(".thank_you_window");
-    const $closeButtons = document.querySelectorAll(".close-btn");
+    const showPopup = () => {
+      console.log("Window loaded. Showing popup...");
+      setTimeout(() => {
+        const $popOverlay = document.querySelector(".popup-overlay");
+        const $subscribeWindow = document.querySelector(".subscribe_window");
 
-    $popOverlay.style.display = "block";
-    $subscribeWindow.style.display = "block";
+        if ($popOverlay) {
+          console.log("Showing popup overlay");
+          $popOverlay.style.display = "block";
+        }
+        if ($subscribeWindow) {
+          console.log("Showing subscribe window");
+          $subscribeWindow.style.display = "block";
+        }
+      }, 3000);
+    };
+
+    window.addEventListener("load", showPopup);
+
+    return () => {
+      window.removeEventListener("load", showPopup);
+    };
+  }, []);
+
+  useEffect(() => {
+    const $thankYouWindow = document.querySelector(".thank_you_window");
+    if ($thankYouWindow) {
+      $thankYouWindow.style.display = isThankYouVisible ? "block" : "none";
+    }
+  }, [isThankYouVisible]);
+
+  useEffect(() => {
+    const $closeButtons = document.querySelectorAll(".close-btn");
 
     $closeButtons.forEach((button) => {
       button.addEventListener("click", closePopup);
@@ -92,24 +111,17 @@ const PopupForm = () => {
         button.removeEventListener("click", closePopup);
       });
     };
-  }, []);
-
-  useEffect(() => {
-    const $thankYouWindow = document.querySelector(".thank_you_window");
-
-    if (isThankYouVisible) {
-      $thankYouWindow.style.display = "block";
-    } else {
-      $thankYouWindow.style.display = "none";
-    }
-  }, [isThankYouVisible]);
+  }, [closePopup]);
 
   return (
     <div className="container">
       <div className="row">
         <div className="col-md-8 col-md-offset-2">
-          <div className="popup-overlay">
-            <div className="popWindow subscribe_window">
+          <div className="popup-overlay" style={{ display: "none" }}>
+            <div
+              className="popWindow subscribe_window"
+              style={{ display: "none" }}
+            >
               <p className="subcsribe-text">Get latest news</p>
               <form onSubmit={handleSubmit} className="subscribe-form">
                 <div>
@@ -160,7 +172,10 @@ const PopupForm = () => {
               </form>
               <div className="close-btn">&times;</div>
             </div>
-            <div className="popWindow thank_you_window">
+            <div
+              className="popWindow thank_you_window"
+              style={{ display: "none" }}
+            >
               <p className="thank_you_title">{thankYouMessage}</p>
               <div className="close-btn">&times;</div>
             </div>
