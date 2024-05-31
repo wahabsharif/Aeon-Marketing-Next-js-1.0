@@ -6,13 +6,23 @@
     "build": "next build",
     "export": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "find:unused": "next-unused"
+  },
+  "next-unused": {
+    "alias": {},
+    "include": [
+      "component"
+    ],
+    "exclude": [],
+    "entrypoints": []
   },
   "dependencies": {
     "@next/third-parties": "^14.2.3",
     "axios": "^0.27.2",
     "formik": "^2.2.9",
     "next": "^14.2.3",
+    "next-unused": "^0.0.6",
     "nodemailer": "^6.9.13",
     "raw-loader": "^4.0.2",
     "react": "^18.3.1",
