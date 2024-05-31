@@ -3,7 +3,7 @@ import Head from "next/head";
 import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/Scroll-to-top";
 import "../styles/globals.css";
-import "../../public/css/dark.css";
+import "../../public/css/dark.min.css";
 import FloatingWA from "../components/FloatingWA";
 import { GoogleTagManager } from "@next/third-parties/google";
 
