@@ -38,12 +38,12 @@
 ---------------------------------------------------------------- */
 /* ====================== [ Start Typography  ] ====================== */
 
-@import "/css/bootstrap.min.css";
-@import "/css/animate.min.css";
-@import "/css/font-awesome.min.css";
-@import "/css/ionicons.min.css";
-@import "/css/pe-icon.min.css";
-@import "/css/font-awesome.min.css";
+@import "/css/bootstrap.css";
+@import "/css/animate.css";
+@import "/css/font-awesome.css";
+@import "/css/ionicons.css";
+@import "/css/pe-icon.css";
+@import "/css/font-awesome.css";
 
 * {
   margin: 0;
@@ -1963,7 +1963,7 @@ body {
   transition: all 0.5s cubic-bezier(1, 0, 0.55, 1);
 }
 
-.hamenu.open .menu-links .main-menu>li .link {
+.hamenu.open .menu-links .main-menu > li .link {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
@@ -2003,7 +2003,7 @@ body {
   z-index: 2;
 }
 
-.hamenu .menu-links .main-menu.gosub>li {
+.hamenu .menu-links .main-menu.gosub > li {
   opacity: 0;
   visibility: hidden;
   -webkit-transition-delay: 0.2s !important;
@@ -2011,7 +2011,7 @@ body {
   transition-delay: 0.2s !important;
 }
 
-.hamenu .menu-links .main-menu.gosub>li .link {
+.hamenu .menu-links .main-menu.gosub > li .link {
   -webkit-transform: translateY(45px) !important;
   -ms-transform: translateY(45px) !important;
   transform: translateY(45px) !important;
@@ -2028,7 +2028,7 @@ body {
   visibility: visible !important;
 }
 
-.hamenu .menu-links .main-menu>li {
+.hamenu .menu-links .main-menu > li {
   font-size: 30px;
   font-weight: 600;
   padding: 10px;
@@ -2042,13 +2042,13 @@ body {
   transition: all 0.5s;
 }
 
-.hamenu .menu-links .main-menu>li span.nm {
+.hamenu .menu-links .main-menu > li span.nm {
   opacity: 0.8;
   font-size: 11px;
   margin-right: 10px;
 }
 
-.hamenu .menu-links .main-menu>li .link {
+.hamenu .menu-links .main-menu > li .link {
   -webkit-transform: translateY(45px);
   -ms-transform: translateY(45px);
   transform: translateY(45px);
@@ -2058,7 +2058,7 @@ body {
   cursor: pointer;
 }
 
-.hamenu .menu-links .main-menu>li .link i {
+.hamenu .menu-links .main-menu > li .link i {
   font-size: 15px;
   margin-left: 5px;
 }
@@ -3846,20 +3846,20 @@ header.simpl .caption .btn-curve {
   margin-bottom: 10px;
 }
 
-.services .rone>div {
+.services .rone > div {
   position: relative;
 }
 
-.services .rone>div:nth-of-type(2) {
+.services .rone > div:nth-of-type(2) {
   margin-bottom: -50px;
   margin-top: auto;
 }
 
-.services .rtwo>div {
+.services .rtwo > div {
   position: relative;
 }
 
-.services .rtwo>div:nth-of-type(2) {
+.services .rtwo > div:nth-of-type(2) {
   margin-bottom: -50px;
   margin-top: auto;
 }
@@ -4326,7 +4326,7 @@ header.simpl .caption .btn-curve {
   transition: all 0.3s;
 }
 
-.portfolio .gallery .items .item-img>a {
+.portfolio .gallery .items .item-img > a {
   display: block;
 }
 
@@ -4670,11 +4670,13 @@ header.simpl .caption .btn-curve {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear,
-      left top,
-      left bottom,
-      from(transparent),
-      to(#13161d));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(transparent),
+    to(#13161d)
+  );
   background: -webkit-linear-gradient(top, transparent, #13161d);
   background: -o-linear-gradient(top, transparent, #13161d);
   background: linear-gradient(180deg, transparent, #13161d);
@@ -4739,7 +4741,7 @@ header.simpl .caption .btn-curve {
   background: #2e3840;
 }
 
-.works .lg-space>div {
+.works .lg-space > div {
   padding: 0 50px;
   margin-bottom: 50px;
 }
@@ -5255,11 +5257,13 @@ header.simpl .caption .btn-curve {
 }
 
 .testim-box .swiper-container:before {
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      color-stop(70%, #191b1f),
-      to(rgba(25, 27, 31, 0.2)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(70%, #191b1f),
+    to(rgba(25, 27, 31, 0.2))
+  );
   background: -webkit-linear-gradient(left, #191b1f 70%, rgba(25, 27, 31, 0.2));
   background: -o-linear-gradient(left, #191b1f 70%, rgba(25, 27, 31, 0.2));
   background: linear-gradient(90deg, #191b1f 70%, rgba(25, 27, 31, 0.2));
@@ -5324,7 +5328,10 @@ header.simpl .caption .btn-curve {
   position: relative;
 }
 
-.testim-box .swiper-container .swiper-pagination .swiper-pagination-current:after {
+.testim-box
+  .swiper-container
+  .swiper-pagination
+  .swiper-pagination-current:after {
   content: "/";
   position: relative;
   margin: 0 7px;
@@ -6720,8 +6727,8 @@ header.simpl .caption .btn-curve {
     padding: 120px 0;
   }
 
-  .services .rtwo>div:nth-of-type(2),
-  .services .rone>div:nth-of-type(2) {
+  .services .rtwo > div:nth-of-type(2),
+  .services .rone > div:nth-of-type(2) {
     margin-bottom: 0px;
   }
 
@@ -6888,7 +6895,7 @@ header.simpl .caption .btn-curve {
     width: 40px;
   }
 
-  .hamenu .menu-links .main-menu>li {
+  .hamenu .menu-links .main-menu > li {
     font-size: 24px;
   }
 
@@ -7083,7 +7090,7 @@ header.simpl .caption .btn-curve {
     display: none;
   }
 
-  .hamenu .menu-links .main-menu>li {
+  .hamenu .menu-links .main-menu > li {
     font-size: 20px;
     padding: 7px;
   }
@@ -7341,7 +7348,7 @@ header.simpl .caption .btn-curve {
   color: #ec2c34;
 }
 
-.subscribe-form input:focus+label {
+.subscribe-form input:focus + label {
   left: -62px;
   font-size: 12px;
 }
@@ -7354,7 +7361,7 @@ header.simpl .caption .btn-curve {
   border: 1px solid #161613;
 }
 
-.subscribe-form input:valid+label {
+.subscribe-form input:valid + label {
   left: -62px;
   font-size: 12px;
 }
@@ -7363,7 +7370,7 @@ header.simpl .caption .btn-curve {
   border: 1px solid #d3362a;
 }
 
-.subscribe-form input:invalid:not(:focus):not(:placeholder-shown)+label {
+.subscribe-form input:invalid:not(:focus):not(:placeholder-shown) + label {
   left: -62px;
   font-size: 12px;
 }
@@ -7378,17 +7385,17 @@ header.simpl .caption .btn-curve {
     padding: 0;
   }
 
-  .subscribe-form input:focus+label {
+  .subscribe-form input:focus + label {
     left: 20px;
     top: -18px;
   }
 
-  .subscribe-form input:valid+label {
+  .subscribe-form input:valid + label {
     left: 20px;
     top: -18px;
   }
 
-  .subscribe-form input:invalid:not(:focus):not(:placeholder-shown)+label {
+  .subscribe-form input:invalid:not(:focus):not(:placeholder-shown) + label {
     left: 20px;
     top: -18px;
   }
@@ -7419,7 +7426,6 @@ header.simpl .caption .btn-curve {
 
 /* Shake animation */
 @keyframes shake {
-
   0%,
   100% {
     transform: translateX(0);
