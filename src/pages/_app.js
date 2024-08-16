@@ -1,13 +1,14 @@
-import React from "react";
 import Head from "next/head";
 import Script from "next/script";
+import React from "react";
 import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/Scroll-to-top";
 // import LoadingScreen from "../components/Loading-Screen";
-import "../styles/globals.css";
-import "../../public/css/dark.min.css";
-import FloatingWA from "../components/FloatingWA";
+// Example in _app.js
 import { GoogleTagManager } from "@next/third-parties/google";
+import "../../public/css/dark.min.css"; // Other CSS imports
+import FloatingWA from "../components/FloatingWA";
+import "../styles/globals.css"; // Ensure this is the first import if using @import in globals.css
 
 const WowScript = () => (
   <Script strategy="beforeInteractive" id="wow" src="/js/wow.min.js"></Script>
