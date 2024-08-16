@@ -1,12 +1,13 @@
 import React from "react";
 import Head from "next/head";
 import Script from "next/script";
-import Cursor from "../components/Cursor";
-import ScrollToTop from "../components/Scroll-to-top";
+import Cursor from "/src/components/Cursor";
+import ScrollToTop from "/src/components/Scroll-to-top";
 // import LoadingScreen from "../components/Loading-Screen";
-import "../styles/globals.css";
-import "../../public/css/dark.css";
-import FloatingWA from "../components/FloatingWA";
+import "/src/styles/globals.css";
+// import "../../public/css/dark.css";
+import "/public/css/dark.css";
+import FloatingWA from "/src/components/FloatingWA";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 const WowScript = () => (
