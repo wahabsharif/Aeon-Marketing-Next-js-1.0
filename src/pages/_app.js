@@ -10,30 +10,26 @@ import FloatingWA from "../components/FloatingWA";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 const WowScript = () => (
-  <Script
-    strategy="beforeInteractive"
-    id="wow"
-    src="/js.min/wow.min.js"
-  ></Script>
+  <Script strategy="beforeInteractive" id="wow" src="/js/wow.min.js"></Script>
 );
 
 const SplittingScript = () => (
   <Script
     strategy="beforeInteractive"
     id="splitting"
-    src="/js/s.minplitting.min.js"
+    src="/js/splitting.min.js"
   ></Script>
 );
 
 const SimpleParallaxScript = () => (
-  <Script id="simpleParallax" src="/js/si.minmpleParallax.min.js"></Script>
+  <Script id="simpleParallax" src="/js/simpleParallax.min.js"></Script>
 );
 
 const IsotopeScript = () => (
   <Script
     strategy="beforeInteractive"
     id="isotope"
-    src=".min/js/isotope.pkgd.min.js"
+    src="/js/isotope.pkgd.min.js"
   ></Script>
 );
 
